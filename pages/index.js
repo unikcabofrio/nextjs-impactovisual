@@ -10,7 +10,12 @@ export default function Home() {
         <meta name="description" content="Gráfica Rápida" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <img src={"/logo.jpg"} alt={"Impacto Visual"}/>
+      <img src={"/0.jpeg"} alt={"Impacto Visual"} width={'100%'}/>
+      <img src={"/1.jpeg"} alt={"Impacto Visual"} width={'100%'}/>
+      <img src={"/2.jpeg"} alt={"Impacto Visual"} width={'100%'}/>
+      <img src={"/3.jpeg"} alt={"Impacto Visual"} width={'100%'}/>
+      <img src={"/4.jpeg"} alt={"Impacto Visual"} width={'100%'}/>
+      <img src={"/5.jpeg"} alt={"Impacto Visual"} width={'100%'}/>
     </div>
   )
 }
