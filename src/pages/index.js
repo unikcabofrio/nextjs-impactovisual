@@ -79,16 +79,16 @@ export default function Home() {
                       <h3>{props.loca}</h3>
                       <p><strong> Endereço </strong><br/>{props.Endereço}</p>
                       <p><strong> Atendimento </strong><br/>
-                        <a target={"_blank"} rel={"noopener"} href={link+props.Contato1}> {props.Contato1}</a> / 
-                        <a target={"_blank"} rel={"noopener"} href={link+props.Contato2}> {props.Contato2}</a><br/>
+                        <a  href={link+props.Contato1}> {props.Contato1}</a> / 
+                        <a  href={link+props.Contato2}> {props.Contato2}</a><br/>
                         <a>{props.email}</a><br/><br/>
                         <a>{props.horario}</a>
                       </p>
                       <br/>
                       <div className={"footerMiddleIconSocial"}>
-                        <a target={"_blank"} rel={"noopener"} href={link+props.Contato1}> <i className="fi fi-brands-whatsapp"></i></a>
-                        <a target={"_blank"} rel={"noopener"} href={props.face}> <i className="fi fi-brands-facebook"></i></a>
-                        <a target={"_blank"} rel={"noopener"} href={props.insta}> <i className="fi fi-brands-instagram"></i></a>
+                        <a  href={link+props.Contato1}> <i className="fi fi-brands-whatsapp"></i></a>
+                        <a  href={props.face}> <i className="fi fi-brands-facebook"></i></a>
+                        <a  href={props.insta}> <i className="fi fi-brands-instagram"></i></a>
                       </div>
                       <iframe src={props.gmaps} />
                   </div>
@@ -99,7 +99,7 @@ export default function Home() {
                 <p>
                   {Yer} - &copy; 
                   Todos os direitos reservados a
-                  <a target={"_blank"} rel={"noopener"} href="https://www.unikcabofrio.com.br"> Unik Cabo Frio</a>.
+                  <a  href="https://www.unikcabofrio.com.br"> Unik Cabo Frio</a>.
                 </p>
               </div>
             </div>
