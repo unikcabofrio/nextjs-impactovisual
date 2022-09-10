@@ -104,44 +104,6 @@
   font-weight: bold;
 }
 
-.containerFotter {
-  width: 100%;
-  padding: 2%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.containerFotter > div {
-  color:#fff;
-}
-
-.containerFotter > div > h2 {
-  color: #fff;
-}
-
-.containerFotter > div > p {
-  margin:0;
-  margin-bottom: 5px;
-}
-
-.mapouter{
-  border:0;
-  text-align:right;
-  width:100%;
-  height:400px;
-}
-
-.footerbottom {
-  padding: 5px 0;
-  width: 100%;
-}
-
-.direitos > p {
-  text-align: center;
-}
-
-
 @media only screen and (max-width: 480px) { 
 
   .containertables_titler > img {

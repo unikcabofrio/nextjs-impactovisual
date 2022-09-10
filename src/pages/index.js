@@ -7,7 +7,7 @@ export default function Home() {
 
   const date = new Date();
   const Yer = date.getFullYear();
-  var link = "https://web.whatsapp.com/send?phone=+55"
+  var link = "https://api.whatsapp.com/send?phone=+55"
 
   useEffect(() => {
 
@@ -24,10 +24,17 @@ export default function Home() {
         <title>Gráfica Impacto Visual</title>
         <meta name="description" content="Gráfica Rápida" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'/>
       </Head>
 
-      <div className={styles.container}>
-          <header>
+      <div className={"ButtonZap"}>
+        <i class="fi fi-brands-whatsapp"></i>
+        {/* {JsonInfo.Lojas.map((props) => (
+            <a href={link+props.Contato1}>{props.loca}</a>
+        ))} */}
+      </div>
+
+      <header>
             <img src={"/banner.png"} />
           </header>
           <main className={styles.containermain}>
@@ -62,31 +69,41 @@ export default function Home() {
           </main>
 
           <footer>
-            <div className={styles.containerFotter}>
+            <div className={"footerTop"}>
+              <h1>Locais para Retirada</h1>
+              <p>Fique por dentro dos nossos pontos de atendimento em Cabo Frio.</p>
+            </div>
+            <div className={"footerMiddle"}>
               {JsonInfo.Lojas.map((props) => (
-                <div key={Math.random()}>
-                    <h2>{props.loca}</h2>
-                    <p><strong> Endereço </strong><br/>{props.Endereço}</p>
-                    <p><strong> Contato </strong><br/>
-                      <a href={link+props.Contato1.trim().replace(' ','').replace('%','').replace('(','').replace(')','').replace('-','')}>{props.Contato1}</a> / 
-                      <a href={link+props.Contato2.trim().replace(' ','').replace('%','').replace('(','').replace(')','').replace('-','')}> {props.Contato2}</a>
-                    </p>
-                    <br/>
-                    <iframe className={styles.mapouter} src={props.gmaps}> </iframe>
-                </div>
+                  <div key={Math.random()}>
+                      <h3>{props.loca}</h3>
+                      <p><strong> Endereço </strong><br/>{props.Endereço}</p>
+                      <p><strong> Atendimento </strong><br/>
+                        <a target={"_blank"} href={link+props.Contato1}> {props.Contato1}</a> / 
+                        <a target={"_blank"} href={link+props.Contato2}> {props.Contato2}</a><br/>
+                        <a>{props.email}</a><br/><br/>
+                        <a>{props.horario}</a>
+                      </p>
+                      <br/>
+                      <div className={"footerMiddleIconSocial"}>
+                        <a target={"_blank"} href={link+props.Contato1}> <i class="fi fi-brands-whatsapp"></i></a>
+                        <a target={"_blank"} href={props.face}> <i class="fi fi-brands-facebook"></i></a>
+                        <a target={"_blank"} href={props.insta}> <i class="fi fi-brands-instagram"></i></a>
+                      </div>
+                      <iframe src={props.gmaps} />
+                  </div>
               ))}
             </div>
-            <div className={styles.footerbottom}>
-                <div>
-                    <div>
-                        <div className={styles.direitos}>
-                            <p>&copy; {Yer} - Todos os direitos reservados a <a  href="https://www.unikcabofrio.com.br">Unik Cabo Frio</a> .</p>
-                        </div>
-                    </div>
-                </div>
+            <div className={"footerBottom"}>
+              <div className={"FooterText"}>
+                <p>
+                  {Yer} - &copy; 
+                  Todos os direitos reservados a
+                  <a target={"_blank"} href="https://www.unikcabofrio.com.br"> Unik Cabo Frio</a>.
+                </p>
+              </div>
             </div>
           </footer>
-      </div>
       
     </>
   )

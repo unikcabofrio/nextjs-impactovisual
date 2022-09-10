@@ -1,0 +1,138 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 350px;
+  padding: 0 2%;
+}
+
+header > img {
+  width: 100%;
+  height: 100%;
+}
+
+/* BUTTON WHATSAPP */
+.ButtonZap {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 0 10px 10px 0;
+  color:#fff;
+  background-color: green;
+  cursor: pointer;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  z-index: 9999;
+}
+
+.ButtonZap:hover {
+  box-shadow: 2px 2px #ffffff25;
+}
+
+.ButtonZap > i {
+  font-size: 25px;
+  padding-top: 5px;
+}
+
+/* FOOTER */
+footer {
+  background: linear-gradient(145deg, rgb(0, 6, 126) 20%, rgb(1, 2, 26) 100%);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  color:#fff;
+  padding: 2px 5%;
+}
+
+.footerTop{
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.footerTop > h1,.footerTop > p {
+  margin: 0;
+}
+
+
+.footerMiddle{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 2%;
+  color:#fff;
+}
+
+.footerMiddle > div {
+  padding: 0 5px;
+}
+
+.footerMiddle > div > p {
+  margin: 0 0 5px 0 ;
+}
+
+.footerMiddle > div > iframe{
+  border:0;
+  width:100%;
+  height:400px;
+}
+
+.footerMiddleIconSocial {
+  width: 100%;
+  display: flex;
+}
+
+.footerMiddleIconSocial > a {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+}
+
+.footerMiddleIconSocial > a > i {
+  font-size: 20px;
+  margin-left: 1px;
+}
+
+.footerBottom{
+  width: 100%;
+}
+.FooterText{
+  border-top: 1px solid #fff;
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 480px) { 
+  header {
+    height: 150px;
+  }
+
+  /* FOOTER */
+  .footerMiddle{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
