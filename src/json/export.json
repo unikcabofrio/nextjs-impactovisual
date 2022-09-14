@@ -3,7 +3,7 @@
         {
             "nome": "Cartão de Visita",
             "img":"/cartão.png",
-            "modelo": "Couchê 250 Gramatura",
+            "modelo": "9x5cm Couchê 250 Gramatura",
             "tipo":[
                 {"qtd":"1000","dados":"Só Frente","preço":"69,90"},
                 {"qtd":"1000","dados":"Frente Cor/Verso Preto","preço":"74,90"},
@@ -13,11 +13,28 @@
         {
             "nome": "Cartão de Visita",
             "img":"/cartão.png",
-            "modelo": "CS2",
+            "modelo": "9x5cm CS2 300 Gramatura",
             "tipo":[
                 {"qtd":"1000","dados":"Só Frente","preço":"74,90"},
                 {"qtd":"1000","dados":"Frente Cor/Verso Preto","preço":"79,90"},
                 {"qtd":"1000","dados":"Frente/Verso","preço":"89,90"}
+            ]
+        },
+        {
+            "nome": "Cartão de Visita",
+            "img":"/cartão.png",
+            "modelo": "9x10cm Couchê 250 Gramatura",
+            "tipo":[
+                {"qtd":"1000","dados":"Só Frente","preço":"139,90"},
+                {"qtd":"1000","dados":"Frente/Verso","preço":"149,90"}
+            ]
+        },
+        {
+            "nome": "Cartão de Visita",
+            "img":"/cartão.png",
+            "modelo": "9x10cm CS2 300 Gramatura",
+            "tipo":[
+                {"qtd":"1000","dados":"Frente/Verso","preço":"169,90"}
             ]
         },
         {

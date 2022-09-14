@@ -9,12 +9,20 @@ export default function Home() {
   const Yer = date.getFullYear();
   var link = "https://api.whatsapp.com/send?phone=+55"
 
+  const ShowChatZap = () => {
+    
+    var divinfo = document.getElementsByClassName("balao2");
+    
+
+    divinfo[0].classList.contains("activeBalao2") ? (
+      divinfo[0].classList.remove("activeBalao2")
+    ) : (
+      divinfo[0].classList.add("activeBalao2")
+    );
+  }
+
   useEffect(() => {
-
-    // Object.keys(JsonInfo.Produtos).forEach(chave => {
-    //   document.querySelector('#tbProdutos').innerHTML += `${chave}, valor: ${JsonInfo.Produtos[chave]} <br>`;
-    // })
-
+    
   },[])
   
 
@@ -27,11 +35,16 @@ export default function Home() {
         <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'/>
       </Head>
 
-      <div className={"ButtonZap"}>
+      <div className={"contatoNumero"}>
+        <div className="balao2">
+          <p>Lojas para atendimento</p>
+          {JsonInfo.Lojas.map((props) => (
+            <a key={Math.random()} href={link+props.Contato1}>{props.loca}</a>
+          ))}
+        </div>
+        <div className={"ButtonZap"} onClick={ShowChatZap}>
         <i className="fi fi-brands-whatsapp"></i>
-        {/* {JsonInfo.Lojas.map((props) => (
-            <a href={link+props.Contato1}>{props.loca}</a>
-        ))} */}
+      </div>
       </div>
 
       <header>
@@ -98,7 +111,7 @@ export default function Home() {
               <div className={"FooterText"}>
                 <p>
                   {Yer} - &copy; 
-                  Todos os direitos reservados a
+                  Todos os direitos reservados a<br/>
                   <a  href="https://www.unikcabofrio.com.br"> Unik Cabo Frio</a>.
                 </p>
               </div>
