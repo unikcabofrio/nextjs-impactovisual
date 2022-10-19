@@ -230,5 +230,111 @@
             { "descri" : "5000(und)","price":"799,90"}
         ]
         
+    },
+    {
+        "img":"adesivoreocorte",
+        "title":"ADESIVOS DE VINIL RECORTE",
+        "description":"Adesivo Vinil • Auto Colantes • Só Frente • Meio corte (Redondo ou Quadrado)",
+        "modelos":[
+            { "descri" : "1100(und) - 3x3cm","price":"99,00"},
+            { "descri" : "600(und) - 4x4cm","price":"99,00"},
+            { "descri" : "400(und) - 5x5cm","price":"99,00"},
+            { "descri" : "550(und) - 3x3cm","price":"55,00"},
+            { "descri" : "300(und) - 4x4cm","price":"55,00"},
+            { "descri" : "200(und) - 5x5cm","price":"55,00"}
+        ]
+        
+    },
+    {
+        "img":"windbanner",
+        "title":"WIND-BANNER",
+        "description":"Tecido + suporte",
+        "modelos":[
+            { "descri" : "3 metros de Altura","price":"330,00"} 
+        ]
+        
+    },
+    {
+        "img":"camisasb",
+        "title":"CAMISAS POLIÉSTER",
+        "description":"Brancas • P ao GG e infantil",
+        "modelos":[
+            { "descri" : "1(und)","price":"25,00 (Cada)"},
+            { "descri" : "3(und)","price":"23,00 (Cada)"},
+            { "descri" : "10(und)","price":"22,00 (Cada)"},
+            { "descri" : "30(und)","price":"21,00 (Cada)"},
+            { "descri" : "50(und)","price":"19,50 (Cada)"}
+        ]
+        
+    },
+    {
+        "img":"camisasc",
+        "title":"CAMISAS POLIÉSTER",
+        "description":"Colorida • P ao GG e infantil",
+        "modelos":[
+            { "descri" : "1(und)","price":"28,00 (Cada)"},
+            { "descri" : "3(und)","price":"25,00 (Cada)"},
+            { "descri" : "10(und)","price":"24,00 (Cada)"},
+            { "descri" : "30(und)","price":"23,00 (Cada)"},
+            { "descri" : "50(und)","price":"22,00 (Cada)"}
+        ]
+        
+    },
+    {
+        "img":"camisasr",
+        "title":"CAMISAS POLIÉSTER",
+        "description":"Raglan (Cinza c/Manga Preto) • P ao GG e infantil",
+        "modelos":[
+            { "descri" : "1(und)","price":"30,00 (Cada)"},
+            { "descri" : "3(und)","price":"28,00 (Cada)"},
+            { "descri" : "10(und)","price":"27,00 (Cada)"},
+            { "descri" : "50(und)","price":"24,00 (Cada)"}
+        ]
+        
+    },
+    {
+        "img":"paineltc",
+        "title":"PAINEL REDONDO",
+        "description":"Tecido ( MicroFibra - OxFord )",
+        "modelos":[
+            { "descri" : "100x100cm","price":"75,00"},
+            { "descri" : "130x130cm","price":"110,00"},
+            { "descri" : "150x150cm","price":"135,00"}
+        ]
+        
+    },
+    {
+        "img":"imas",
+        "title":"IMÃ COMERCIAL",
+        "description":"5x4,5cm • Sem Calendário",
+        "modelos":[
+            { "descri" : "100(und)","price":"80,00"},
+            { "descri" : "300(und)","price":"135,00"},
+            { "descri" : "500(und)","price":"165,00"},
+            { "descri" : "1000(und)","price":"250,00"}
+        ]
+        
+    },
+    {
+        "img":"imac",
+        "title":"IMÃ COMERCIAL",
+        "description":"5x4,5cm • Com Calendário",
+        "modelos":[
+            { "descri" : "100(und)","price":"150,00"},
+            { "descri" : "300(und)","price":"299,00"},
+            { "descri" : "500(und)","price":"399,00"},
+            { "descri" : "1000(und)","price":"509,00"}
+        ]
+        
+    },
+    {
+        "img":"imain",
+        "title":"IMÃ INFANTIL",
+        "description":"5x4,5cm • Para Festas",
+        "modelos":[
+            { "descri" : "10x5cm - Mínimo 30","price":"2,00"},
+            { "descri" : "10x7,5cm - Mínimo 20","price":"2,50"}
+        ]
+        
     }
 ]
