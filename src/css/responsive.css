@@ -24,6 +24,43 @@
         font-size: 1rem;
     }
 
+    /*----------- Footer ------------*/
+    footer {
+        padding-top: 60px !important;
+        padding: 20px 10px;
+    }
+    .fl-top p{
+        padding: 20px 2%;
+    }
+
+    .fl-middle{
+        flex-direction: column;
+    }
+
+    .fl-middle-contact h3{
+        text-align: center;
+    }
+
+    .fl-middle-form input,.fl-middle-form textarea,.fl-middle-form div{
+        width: 100%;
+    }
+
+    .fl-bottom {
+        flex-direction: column;
+    }
+
+    .fl-bottom div{
+        justify-content:center;
+    }
+
+    .fl-bottom-social a {
+        padding-top: .5%;
+    }
+
+    .fl-bottom-social {
+        justify-content: center;
+    }
+
     /*----------- NavBar ------------*/
     .navbar{
         padding: 5px 10px ;

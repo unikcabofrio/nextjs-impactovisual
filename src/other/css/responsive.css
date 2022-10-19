@@ -78,12 +78,11 @@ footer{
     padding: 20px 2%;
 }
 
-/*----------- Footer - Top ------------*/
+/*----------- Footer ------------*/
 .fl-top p{
     padding: 20px 2%;
 }
 
-/*----------- Footer - Middle ------------*/
 .fl-middle{
     flex-direction: column;
 }
@@ -91,8 +90,6 @@ footer{
 .fl-middle-form input,.fl-middle-form textarea,.fl-middle-form div{
     width: 100%;
 }
-
-/*----------- Footer - Bottom ------------*/
 
 .fl-bottom {
     flex-direction: column;

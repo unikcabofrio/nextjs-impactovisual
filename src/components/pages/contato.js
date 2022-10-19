@@ -27,7 +27,7 @@ export default function Index() {
             <div className='fl-middle-contact'>
               <h3>Cabo Frio</h3>
               <div className='flm-contact-info'>
-                <Image src="/assets/location-arrow.webp" alt="Local" width={45} height={45} quality={100}/>
+                <img src="/assets/location-arrow.webp" alt="Local" />
                 <p>
                   <strong>Endereço:</strong><br/>
                   <a href={"https://g.page/onbytecabofriohttps://www.google.com/search?q=grafica%20impacto%20visual&rlz=1C1FCXM_pt-PTBR988BR990&oq=gr%C3%A1fica+impacto+visual+&aqs=chrome.1.69i57j0i22i30j69i60j69i61l2.23056j0j7&sourceid=chrome&ie=UTF-8&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:14&tbm=lcl&rflfq=1&num=10&rldimm=3860985265260819815&lqi=ChZncmFmaWNhIGltcGFjdG8gdmlzdWFsWhgiFmdyYWZpY2EgaW1wYWN0byB2aXN1YWySARBncmFwaGljX2Rlc2lnbmVyqgEPEAEqCyIHZ3JhZmljYSgM&ved=2ahUKEwiEi42m7uz6AhUOpZUCHRnvDD4QvS56BAgOEAE&sa=X&rlst=f#rlfi=hd:;si:3860985265260819815,l,ChZncmFmaWNhIGltcGFjdG8gdmlzdWFsWhgiFmdyYWZpY2EgaW1wYWN0byB2aXN1YWySARBncmFwaGljX2Rlc2lnbmVyqgEPEAEqCyIHZ3JhZmljYSgM;mv:[[-22.8349823,-42.0273253],[-22.893804900000003,-42.03887050000001]]?share"}>
@@ -35,7 +35,7 @@ export default function Index() {
                 </p>
               </div>
               <div className='flm-contact-info'>
-                <Image src="/assets/zap-arrow.webp" alt="Whatsapp" width={45} height={45} quality={100}/>
+                <img src="/assets/zap-arrow.webp" alt="Whatsapp"/>
                   <p>
                     <strong>Whatsapp:</strong><br/>
                     <a href={link+"22981591576"}>(22) 98159-1576 / </a>
@@ -43,14 +43,14 @@ export default function Index() {
                   </p>
               </div>
               <div className='flm-contact-info'>
-                <Image src="/assets/email-arrow.webp" alt="Email" width={45} height={45} quality={100}/>
+                <img src="/assets/email-arrow.webp" alt="Email"/>
                 <p>
                   <strong>Email:</strong><br/>
                   <a href={"mailto:contato.impactocf@gmail.com"}>contato.impactocf@gmail.com</a>
                 </p>
               </div>
               <div className='flm-contact-info'>
-                <Image src="/assets/hor-arrow.webp" alt="Email" width={45} height={45} quality={100}/>
+                <img src="/assets/hor-arrow.webp" alt="horario"/>
                 <p>
                   <strong>Horário:</strong><br/>
                   <a href={""}>Segunda à sexta-feira de 9h às 18h</a>
@@ -66,7 +66,7 @@ export default function Index() {
             <div className='fl-middle-contact'>
               <h3>Jardim Esperança</h3>
               <div className='flm-contact-info'>
-                <Image src="/assets/location-arrow.webp" alt="Local" width={45} height={45} quality={100}/>
+                <img src="/assets/location-arrow.webp" alt="Local"/>
                 <p>
                   <strong>Endereço:</strong><br/>
                   <a href={"https://www.google.com/search?q=grafica%20impacto%20visual&rlz=1C1FCXM_pt-PTBR988BR990&oq=gr%C3%A1fica+impacto+visual+&aqs=chrome.1.69i57j0i22i30j69i60j69i61l2.23056j0j7&sourceid=chrome&ie=UTF-8&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:14&tbm=lcl&rflfq=1&num=10&rldimm=3860985265260819815&lqi=ChZncmFmaWNhIGltcGFjdG8gdmlzdWFsWhgiFmdyYWZpY2EgaW1wYWN0byB2aXN1YWySARBncmFwaGljX2Rlc2lnbmVyqgEPEAEqCyIHZ3JhZmljYSgM&ved=2ahUKEwiEi42m7uz6AhUOpZUCHRnvDD4QvS56BAgOEAE&sa=X&rlst=f#rlfi=hd:;si:9652287966566962171,l,ChZncmFmaWNhIGltcGFjdG8gdmlzdWFsWhgiFmdyYWZpY2EgaW1wYWN0byB2aXN1YWySARJjb21tZXJjaWFsX3ByaW50ZXKqAQ8QASoLIgdncmFmaWNhKAw;mv:[[-22.8349823,-42.0273253],[-22.893804900000003,-42.03887050000001]]"}>
@@ -74,7 +74,7 @@ export default function Index() {
                 </p>
               </div>
               <div className='flm-contact-info'>
-                <Image src="/assets/zap-arrow.webp" alt="Whatsapp" width={45} height={45} quality={100}/>
+                <img src="/assets/zap-arrow.webp" alt="Whatsapp"/>
                   <p>
                     <strong>Whatsapp:</strong><br/>
                     <a href={link+"22999722326"}>(22) 99972-2326 / </a>
@@ -82,14 +82,14 @@ export default function Index() {
                   </p>
               </div>
               <div className='flm-contact-info'>
-                <Image src="/assets/email-arrow.webp" alt="Email" width={45} height={45} quality={100}/>
+                <img src="/assets/email-arrow.webp" alt="Email"/>
                 <p>
                   <strong>Email:</strong><br/>
                   <a href={"mailto:graficaimpactojardim@gmail.com"}>graficaimpactojardim@gmail.com</a>
                 </p>
               </div>
               <div className='flm-contact-info'>
-                <Image src="/assets/hor-arrow.webp" alt="Email" width={45} height={45} quality={100}/>
+                <img src="/assets/hor-arrow.webp" alt="horario"/>
                 <p>
                   <strong>Horário:</strong><br/>
                   <a href={""}>Segunda à sexta-feira de 9h às 18h30 e Sábado de 9h à 13h</a>

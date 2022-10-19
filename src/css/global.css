@@ -276,6 +276,10 @@ footer a {
     height: 100%;
 }
 
+.flm-contact-info img{
+    width: 45px !important;
+}
+
 .flm-contact-info{
     display: flex;
     align-items: center;
