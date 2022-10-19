@@ -13,7 +13,7 @@
         {
             "nome": "Cartão de Visita",
             "img":"/cartão.png",
-            "modelo": "9x5cm CS2 300 Gramatura",
+            "modelo": "9x5cm CS2",
             "tipo":[
                 {"qtd":"1000","dados":"Só Frente","preço":"74,90"},
                 {"qtd":"1000","dados":"Frente Cor/Verso Preto","preço":"79,90"},
@@ -32,7 +32,7 @@
         {
             "nome": "Cartão de Visita",
             "img":"/cartão.png",
-            "modelo": "9x10cm CS2 300 Gramatura",
+            "modelo": "9x10cm CS2 ",
             "tipo":[
                 {"qtd":"1000","dados":"Frente/Verso","preço":"169,90"}
             ]

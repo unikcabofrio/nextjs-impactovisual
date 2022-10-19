@@ -1,0 +1,162 @@
+@media only screen and (max-width: 800px) {
+/*----------- Default ------------*/
+
+main{
+    padding-top: 20px !important;
+    z-index: 1;
+    background-color: #ffffff;
+    color:#5A5A5A;
+}
+
+footer{
+    padding-top: 20px !important;
+    padding: 20px 10px;
+}
+
+/*----------- header ------------*/
+.header-layout{
+    padding-top:0 !important;
+}
+ 
+.hl-slide-top h2 {
+     font-size: 50px;
+}
+
+.hl-slide-space{
+    margin-bottom: 0 !important;
+    flex-direction: column !important;
+    align-items: normal !important;
+}
+
+.hl-slide-flex img {
+    width: 80%;
+    height: auto;
+}
+
+/*----------- Cursos ------------*/
+
+.ml-cursos{
+    padding: 20px 10px;
+}
+
+.ml-cursos p{
+    padding: 20px 2%;
+}
+
+.ml-cm-items p{
+    padding: 10px 0;
+    font-size: 1rem;
+}
+
+/*----------- Unidade ------------*/
+.ml-und{
+    padding: 20px 10px;
+}
+
+.ml-und p{
+    padding: 20px 2%;
+}
+
+.ml-und-middle{
+    flex-direction: column;
+}
+
+.ml-und-middle div{
+    margin: 0;
+}
+
+.ml-und-middle div p{
+    font-size: 1rem;
+}
+
+/*----------- Selos ------------*/
+.ml-selos{
+    padding: 20px 10px;
+}
+
+.ml-top p{
+    padding: 20px 2%;
+}
+
+/*----------- Footer - Top ------------*/
+.fl-top p{
+    padding: 20px 2%;
+}
+
+/*----------- Footer - Middle ------------*/
+.fl-middle{
+    flex-direction: column;
+}
+
+.fl-middle-form input,.fl-middle-form textarea,.fl-middle-form div{
+    width: 100%;
+}
+
+/*----------- Footer - Bottom ------------*/
+
+.fl-bottom {
+    flex-direction: column;
+}
+
+.fl-bottom div{
+    justify-content:center;
+}
+
+.fl-bottom img{
+    width: 100%;
+}
+
+.fl-bottom-social a {
+    padding-top: .5%;
+}
+
+/*----------- NavBar ------------*/
+
+.NavBar-Top{
+    flex-direction: column;
+    padding-top: 20px;
+    padding: 20px 10px;
+}
+
+.NBar-Menu{
+    width: 100%;
+}
+
+.NBar-Menu ul {
+    flex-direction: column-reverse;
+}
+
+.NBar-Menu ul li{
+    display: none;
+}
+
+.NBar-Menu ul li {
+    padding: 10px 5px;
+}
+
+.showMenu-li{
+    display: block !important;
+}
+
+.NBar-Menu ul li:hover{
+    border-top: 3px solid transparent;
+}
+
+.buttonNav{
+    display: block !important;
+}
+
+}
+
+@media (min-width: 360px) and (max-width: 370px) {
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media (min-width: 1024px) and (max-width: 1080px) {
+    /*----------- NavBar ------------*/
+    .NBar-Menu {
+        width: 55%;
+    }
+}

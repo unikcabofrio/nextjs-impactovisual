@@ -1,0 +1,234 @@
+[
+    {
+        "img":"ct_frente",
+        "title":"CARTÃO DE VISITA",
+        "description":"Só Frente • 1000(und) ",
+        "modelos":[
+            { "descri" : "9x5cm • Couchê 250g","price":"69,90"},
+            { "descri" : "9x5cm • CS2 ","price":"74,90"},
+            { "descri" : "9x10cm • Couchê 250g","price":"139,90"}
+        ]
+        
+    },
+    {
+        "img":"ct_fidelidade",
+        "title":"CARTÃO FIDELIDADE",
+        "description":"Frente (cor) Verso (preto e branco) • 1000(und) ",
+        "modelos":[
+            { "descri" : "9x5cm • Couchê 250g","price":"74,90"},
+            { "descri" : "9x5cm • CS2 ","price":"79,90"}
+        ]
+        
+    },
+    {
+        "img":"ct_frenteverso",
+        "title":"CARTÃO DE VISITA",
+        "description":"Frente e Verso (colorido) • 1000(und) ",
+        "modelos":[
+            { "descri" : "9x5cm • Couchê 250g","price":"79,90"},
+            { "descri" : "9x5cm • CS2 ","price":"89,90"},
+            { "descri" : "9x10cm • Couchê 250g","price":"149,90"},
+            { "descri" : "9x10cm • CS2 ","price":"169,90"}
+        ]
+        
+    },
+    {
+        "img":"ct_verniz1",
+        "title":"CARTÃO C/VERNIZ",
+        "description":"Verniz Localizado • Frente e Verso (colorido) • 1000(und) ",
+        "modelos":[
+            { "descri" : "9x5cm • Couchê 300g","price":"149,90"},
+            { "descri" : "9x10cm • Couchê 300g","price":"269,90"}
+        ]
+        
+    },
+    {
+        "img":"banner",
+        "title":"BANNES",
+        "description":"Tubete e Corda • Só Frente • 1 Unidade",
+        "modelos":[
+            { "descri" : "50x70cm","price":"34,90"},
+            { "descri" : "60X90cm","price":"44,90"},
+            { "descri" : "100X70cm","price":"54,90"},
+            { "descri" : "120X80cm","price":"69,90"},
+            { "descri" : "120X100cm","price":"84,90"},
+            { "descri" : "150X100cm","price":"99,90"},
+            { "descri" : "200X100cm","price":"139,90"},
+            { "descri" : "200X200cm","price":"249,90"},
+            { "descri" : "2 iguais • 60X90cm","price":"79,90"}
+        ]
+        
+    },
+    {
+        "img":"lona",
+        "title":"LONA ",
+        "description":"Verniz Total •380 Gramatura • Só Frente • 1 Unidade",
+        "modelos":[
+            { "descri" : "1m²","price":"69,90"},
+            { "descri" : "2m²","price":"139,90"},
+            { "descri" : "3m²","price":"199,90"},
+            { "descri" : "4m²","price":"249,90"}
+        ]
+        
+    },
+    {
+        "img":"adesivo",
+        "title":"ADESIVOS DE VINIL",
+        "description":"Adesivo Vinil, Auto Colantes, Só Frente",
+        "modelos":[
+            { "descri" : "1m²","price":"74,90"},
+            { "descri" : "2m²","price":"149,90"},
+            { "descri" : "3m²","price":"209,90"},
+            { "descri" : "4m²","price":"279,90"}
+        ]
+        
+    },
+    {
+        "img":"pf_frente1014",
+        "title":"PANFLETOS 10x14cm",
+        "description":"80 Gramatura • Só Frente",
+        "modelos":[
+            { "descri" : "2500(und)","price":"149,90"},
+            { "descri" : "5000(und)","price":"209,90"}
+        ]
+        
+    },
+    {
+        "img":"pf_frenteverso1014",
+        "title":"PANFLETOS 10x14cm",
+        "description":"80 Gramatura • Frente/Verso",
+        "modelos":[
+            { "descri" : "2500(und)","price":"239,90"},
+            { "descri" : "5000(und)","price":"274,90"}
+        ]
+        
+    },
+    {
+        "img":"pf_frente2014",
+        "title":"PANFLETOS 20x14cm",
+        "description":"80 Gramatura • Só Frente",
+        "modelos":[
+            { "descri" : "2500(und)","price":"279,90"},
+            { "descri" : "5000(und)","price":"389,90"}
+        ]
+        
+    },
+    {
+        "img":"pf_frenteverso2014",
+        "title":"PANFLETOS 20x14cm",
+        "description":"80 Gramatura • Frente/Verso",
+        "modelos":[
+            { "descri" : "2500(und)","price":"339,90"},
+            { "descri" : "5000(und)","price":"459,90"}
+        ]
+        
+    },
+    {
+        "img":"pf_frente1015",
+        "title":"PANFLETOS 10x15cm",
+        "description":"115 Gramatura • Só Frente",
+        "modelos":[
+            { "descri" : "1000(und)","price":"139,90"},
+            { "descri" : "2500(und)","price":"199,90"},
+            { "descri" : "5000(und)","price":"299,90"}
+        ]
+        
+    },
+    {
+        "img":"pf_frenteverso1015",
+        "title":"PANFLETOS 10x15cm",
+        "description":"115 Gramatura • Frente/Verso",
+        "modelos":[
+            { "descri" : "1000(und)","price":"209,90"},
+            { "descri" : "2500(und)","price":"269,90"},
+            { "descri" : "5000(und)","price":"339,90"}
+        ]
+        
+    },
+    {
+        "img":"pf_frente1521",
+        "title":"PANFLETOS 15x21cm",
+        "description":"115 Gramatura • Só Frente",
+        "modelos":[
+            { "descri" : "1000(und)","price":"279,90"},
+            { "descri" : "2500(und)","price":"349,90"},
+            { "descri" : "5000(und)","price":"499,90"}
+        ]
+        
+    },
+    {
+        "img":"pf_frenteverso1521",
+        "title":"PANFLETOS 15x21cm",
+        "description":"115 Gramatura • Frente/Verso",
+        "modelos":[
+            { "descri" : "1000(und)","price":"319,90"},
+            { "descri" : "2500(und)","price":"409,90"},
+            { "descri" : "5000(und)","price":"559,90"}
+        ]
+        
+    },
+    {
+        "img":"pf_frente920",
+        "title":"PANFLETOS 9x20cm",
+        "description":"80 Gramatura • Só Frente",
+        "modelos":[
+            { "descri" : "2500(und)","price":"289,90"},
+            { "descri" : "5000(und)","price":"325,90"}
+        ]
+        
+    },
+    {
+        "img":"pf_frenteverso920",
+        "title":"PANFLETOS 9x20cm",
+        "description":"80 Gramatura • Frente/Verso",
+        "modelos":[
+            { "descri" : "2500(und)","price":"339,90"},
+            { "descri" : "5000(und)","price":"429,90"}
+        ]
+        
+    },
+    {
+        "img":"pf_frente1021",
+        "title":"PANFLETOS 10x21cm",
+        "description":"115 Gramatura • Só Frente",
+        "modelos":[
+            { "descri" : "1000(und)","price":"219,90"},
+            { "descri" : "2500(und)","price":"309,90"},
+            { "descri" : "5000(und)","price":"375,90"}
+        ]
+        
+    },
+    {
+        "img":"pf_frenteverso1021",
+        "title":"PANFLETOS 10x21cm",
+        "description":"115 Gramatura • Frente/Verso",
+        "modelos":[
+            { "descri" : "1000(und)","price":"279,90"},
+            { "descri" : "2500(und)","price":"349,90"},
+            { "descri" : "5000(und)","price":"499,90"}
+        ]
+        
+    },
+    {
+        "img":"pf_frente2021",
+        "title":"PANFLETOS 20x21cm",
+        "description":"115 Gramatura • Só Frente",
+        "modelos":[
+            { "descri" : "1000(und)","price":"349,90"},
+            { "descri" : "2500(und)","price":"459,90"},
+            { "descri" : "5000(und)","price":"589,90"}
+        ]
+        
+    },
+    {
+        "img":"pf_frenteverso2021",
+        "title":"PANFLETOS 20x21cm",
+        "description":"115 Gramatura • Frente/Verso",
+        "modelos":[
+            { "descri" : "1000(und)","price":"489,90"},
+            { "descri" : "2500(und)","price":"599,90"},
+            { "descri" : "5000(und)","price":"799,90"}
+        ]
+        
+    }
+]

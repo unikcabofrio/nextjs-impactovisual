@@ -1,23 +1,21 @@
-import '../styles/globals.css'
-import react,{useEffect,useState} from 'react';
+import App from 'next/app';
 
-function MyApp({ Component, pageProps }) {
-  const [showChild, setShowChild] = useState(false);
-  useEffect(() => {
-    setShowChild(true);
-  }, []);
-
-  if (!showChild) {
-    return null;
-  }
-
-  if (typeof window === 'undefined') {
-    return <></>;
-  } else {
-    return <Component {...pageProps} />
-  }
-}
-
-export default MyApp
+// CSSS
+import '../css/global.css';
+import '../css/responsive.css';
 
 
+const MyApp = ({ Component, props }) => {
+  return(
+    <>
+      <Component {...props} />
+    </>
+  );
+};
+
+MyApp.getInitialProps = async (appContext) => {
+  const appProps = await App.getInitialProps(appContext);
+  return { ...appProps };
+};
+
+export default App;
