@@ -196,23 +196,28 @@ header{
     color: #b91d2a !important;
 }
 
-.mo-items a{
+.mo-items-contato{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mo-items-contato a{
     text-decoration: none;
     text-align: center;
+    font-size: .9rem;
     background-color: #F23545;
     color: #ffffff;
     border: 1px solid #F23545;
-    margin: 0 20%;
-    padding: 5px 25px;
+    padding: 2px 10px;
     border-radius: 5px;
 }
 
-.mo-items a:hover{
+.mo-items-contato a:hover{
     background-color: #ffffff;
     color: #F23545;
     border: 1px solid #F23545;
 }
-
 /*----------- Footer ------------*/
 
 footer{

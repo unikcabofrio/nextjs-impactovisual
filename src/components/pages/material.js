@@ -6,12 +6,13 @@ import JsonProduto from '../../json/produtos.json'
 export default function Index(props) {
 
     let linkzap = "https://api.whatsapp.com/send?phone=55"
-    const Whatsapp = ['22981591576','22992158462','22999722326']
+    const Whatsapp = ['22981591576','22992158462']
+    const Whatsapp_ = ['22999722326']
     const [RandoZap,setRandoZap] = useState(0);
 
     useEffect(() => {
         (function ($) {})(jQuery);
-        setRandoZap(Math.floor(Math.random() * 3))
+        setRandoZap(Math.floor(Math.random() * 2))
     },[jQuery])
 
     return (
@@ -44,7 +45,10 @@ export default function Index(props) {
                   </div>
                 ))}
                 <br/>
-                <a href={linkzap+Whatsapp[RandoZap]+"&text=Ola, Gostaria de comprar *"+ImgArray.title+"*, "+ImgArray.description}>COMPRAR</a>
+                <div className='mo-items-contato'>
+                  <a href={linkzap+Whatsapp[RandoZap]+"&text=Ola, Gostaria de comprar *"+ImgArray.title+"*, "+ImgArray.description}>Cabo Frio</a>
+                  <a href={linkzap+Whatsapp_[0]+"&text=Ola, Gostaria de comprar *"+ImgArray.title+"*, "+ImgArray.description}>Jardim Esperança</a>
+                </div>
               </div>
             ))}
           </div>

@@ -336,5 +336,40 @@
             { "descri" : "10x7,5cm - Mínimo 20","price":"2,50"}
         ]
         
+    },
+    {
+        "img":"pulseira",
+        "title":"PULSERA PERSONALIZADA",
+        "description":"Cor unica • Para Festas",
+        "modelos":[
+            { "descri" : "100(und)","price":"79,90"},
+            { "descri" : "200(und)","price":"140,00"},
+            { "descri" : "300(und)","price":"180,00"},
+            { "descri" : "500(und)","price":"225,00"},
+            { "descri" : "1000(und)","price":"290,00"}
+        ]
+        
+    },
+    {
+        "img":"crachafrente",
+        "title":"CRACHÁ",
+        "description":"5x9nc • Para Festas • Sò Frente",
+        "modelos":[
+            { "descri" : "1","price":"22,00"},
+            { "descri" : "3","price":"20,00"},
+            { "descri" : "11","price":"18,00"}
+        ]
+        
+    },
+    {
+        "img":"cracha",
+        "title":"CRACHÁ",
+        "description":"5x9nc • Para Festas • Frente e Verso",
+        "modelos":[
+            { "descri" : "1","price":"24,00"},
+            { "descri" : "3","price":"22,00"},
+            { "descri" : "11","price":"20,00"}
+        ]
+        
     }
 ]
