@@ -355,9 +355,9 @@
         "title":"CRACHÁ",
         "description":"5x9nc • Para Festas • Sò Frente",
         "modelos":[
-            { "descri" : "1","price":"22,00"},
-            { "descri" : "3","price":"20,00"},
-            { "descri" : "11","price":"18,00"}
+            { "descri" : "1(und)","price":"22,00"},
+            { "descri" : "3(und)","price":"20,00"},
+            { "descri" : "11(und)","price":"18,00"}
         ]
         
     },
@@ -366,20 +366,9 @@
         "title":"CRACHÁ",
         "description":"5x9nc • Para Festas • Frente e Verso",
         "modelos":[
-            { "descri" : "1","price":"24,00"},
-            { "descri" : "3","price":"22,00"},
-            { "descri" : "11","price":"20,00"}
-        ]
-        
-    },
-    {
-        "img":"cracha",
-        "title":"CRACHÁ",
-        "description":"5x9nc • Para Festas • Frente e Verso",
-        "modelos":[
-            { "descri" : "1","price":"24,00"},
-            { "descri" : "3","price":"22,00"},
-            { "descri" : "11","price":"20,00"}
+            { "descri" : "1(und)","price":"24,00"},
+            { "descri" : "3(und)","price":"22,00"},
+            { "descri" : "11(und)","price":"20,00"}
         ]
         
     },
