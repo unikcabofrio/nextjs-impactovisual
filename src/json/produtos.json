@@ -371,5 +371,87 @@
             { "descri" : "11","price":"20,00"}
         ]
         
+    },
+    {
+        "img":"cracha",
+        "title":"CRACHÁ",
+        "description":"5x9nc • Para Festas • Frente e Verso",
+        "modelos":[
+            { "descri" : "1","price":"24,00"},
+            { "descri" : "3","price":"22,00"},
+            { "descri" : "11","price":"20,00"}
+        ]
+        
+    },
+    {
+        "img":"talao1v",
+        "title":"TALÃO 10X14cm",
+        "description":"1 Via • Sem Número",
+        "modelos":[
+            { "descri" : "5(und) 50 Folhas(cada)","price":"65,00"},
+            { "descri" : "10(und) 50 Folhas(cada)","price":"85,00"},
+            { "descri" : "10(und) 100 Folhas(cada)","price":"140,00"}
+        ]
+        
+    },
+    {
+        "img":"talao2v",
+        "title":"TALÃO 10X14cm",
+        "description":"2 Via • Com Número",
+        "modelos":[
+            { "descri" : "10(und) 50 Folhas(cada)","price":"160,00"},
+            { "descri" : "20(und) 50 Folhas(cada)","price":"230,00"}
+        ]
+        
+    },
+    {
+        "img":"talao1v",
+        "title":"TALÃO 14X20cm",
+        "description":"1 Via • Sem Número",
+        "modelos":[
+            { "descri" : "5(und) 50 Folhas(cada)","price":"85,00"},
+            { "descri" : "10(und) 50 Folhas(cada)","price":"120,00"},
+            { "descri" : "10(und) 100 Folhas(cada)","price":"200,00"}
+        ]
+        
+    },
+    {
+        "img":"talao2v",
+        "title":"TALÃO 14X20cm",
+        "description":"2 Via • Com Número",
+        "modelos":[
+            { "descri" : "10(und) 100 Folhas(cada)","price":"220,00"}
+        ]
+        
+    },
+    {
+        "img":"talao1v",
+        "title":"TALÃO 10x20cm",
+        "description":"1 Via • Sem Número",
+        "modelos":[
+            { "descri" : "5(und) 50 Folhas(cada)","price":"80,00"},
+            { "descri" : "10(und) 50 Folhas(cada)","price":"120,00"},
+            { "descri" : "10(und) 100 Folhas(cada)","price":"185,00"}
+        ]
+        
+    },
+    {
+        "img":"talao2v",
+        "title":"TALÃO 10x20cm",
+        "description":"2 Via • Com Número",
+        "modelos":[
+            { "descri" : "10(und) 100 Folhas(cada)","price":"220,00"}
+        ]
+        
+    },
+    {
+        "img":"vouche",
+        "title":"VOUCHÊ 29x7cm",
+        "description":"Destacavel",
+        "modelos":[
+            { "descri" : "10(und) 100 Folhas(cada)","price":"160,00"},
+            { "descri" : "20(und) 100 Folhas(cada)","price":"230,00"}
+        ]
+        
     }
 ]
