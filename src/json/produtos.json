@@ -255,6 +255,36 @@
         
     },
     {
+        "img":"cardapiopapel",
+        "title":"CARDÁPIO A4",
+        "description":"Couchê 170g • Minímo 5 unidades",
+        "modelos":[
+            { "descri" : "Só Frente","price":"15,00 (cada)"}, 
+            { "descri" : "Frente e Verso","price":"20,00 (cada)"} 
+        ]
+        
+    },
+    {
+        "img":"cardapiopvcf",
+        "title":"CARDÁPIO PVC",
+        "description":"Só Frente • 1mm",
+        "modelos":[
+            { "descri" : "20x30cm, 10(und)","price":"15,00 (cada)"}, 
+            { "descri" : "30x40cm, 6(und)","price":"28,00 (cada)"} 
+        ]
+        
+    },
+    {
+        "img":"cardapiopvcfv",
+        "title":"CARDÁPIO PVC",
+        "description":"Frente e Verso • 1mm",
+        "modelos":[
+            { "descri" : "20x30cm, 15(und)","price":"17,90 (cada)"}, 
+            { "descri" : "30x40cm, 8(und)","price":"35,00 (cada)"} 
+        ]
+        
+    },
+    {
         "img":"camisasb",
         "title":"CAMISAS POLIÉSTER",
         "description":"Brancas • P ao GG e infantil",
