@@ -33,9 +33,9 @@ export default function Index() {
       
       {/* <header id="Home"></header> */}
       <main>
-        <Material id={'Material'} />
+        <Material id={'material'} />
       </main>
-      <footer id="Contato">
+      <footer id="contato">
         <Contato/>
       </footer>
     </div>

@@ -13,6 +13,20 @@
     scroll-behavior: smooth;
 }
 
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined' !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
 .layout{
     background-color: #ffffff;
     width: 100%;
@@ -434,69 +448,112 @@ footer a {
     font-weight: 600;
 }
 
-/*----------- NavBar ------------*/
+/* Navegador */
 
-.navbar{
+.navBar-Default, .navBar-Respons{
+    width: 100vw;
     position: fixed;
-    z-index: 999999;
-    top: 0;
-    left: 0;
-    transition: all 0.3s;
-    width: 100%;
-    background-color:#ffffff ;
-    box-shadow: 0px 0px 20px 0px rgb(0 0 0 /0);
-    padding: 25px 100px ;
+    z-index: 99999;
     display: flex;
-    flex-direction: row;
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 0);
+}
+
+.navBar-Default{
+    background-color: rgb(255 255 255 / 0);
+    padding: 0 100px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navBar-Respons{
+    background-color: rgb(255 255 255 / 100%);
+    padding: 5px 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navBar-Default .logo,.navBar-Respons .logo{
+    width: 100%;
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.logo{
-    display: flex;
-    align-items:baseline;
-    text-decoration: none;
-    color: #0D0D0D;
-    font-size: 2rem;
-}
-
-.logo img{
-    width: 150px;
-    height: auto;
-    padding-right: 8px;
-}
-
-.navbar ul{
-    width: 80%;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-
-.navbar ul li{
+.navBar-Default .logo img,.navBar-Respons .logo img{
+    width: 10rem;
+    padding: 6px 0;
     cursor: pointer;
+    transition: 0.3s all;
+}
+
+.navBar-Respons .logo .material-symbols-outlined{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.navBar-Respons ul{
+    width: 100%;
+    transition: .3s all;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navBar-Default ul{
+    width: 100%;
+}
+
+.navBar-Default ul li{
+    float: right;
+    cursor: pointer;
+}
+
+.navBar-Default ul li a{
+    font-size: 1rem;
     height: 100%;
-    padding: 0 15px;
-    transition: all 0.3s;
-    
+    padding: 32px 16px;
+    color: #0178af;
 }
 
-.navbar ul li a{
-    transition: all 0.3s;
-    text-decoration: none;
-    color: #0D0D0D;
+.navBar-Default ul li:hover, .navBar-Default ul li:hover a{
+    background-color: #F23545;
+    color: #ffffff;
 }
 
-.navbar ul li a:hover{
-    color: #F23545;
+.navBar-Default ul .active, .navBar-Default ul .active a{
+    background-color: #0178af;
+    color: #ffffff;
+    font-weight: 400;
 }
 
-.active-navbar{
-    color: #F23545 !important;
+.navBar-Respons ul li{
+    width: 100%;
+    padding: 0.5rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 10%);
 }
 
-/*----------- Whatsapp ------------*/
+.navBar-Respons ul li:nth-last-child(-n+1){
+    border-bottom: 0px solid rgba(0, 0, 0, 0%);
+}
+
+.navBar-Respons ul li a{
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 400;
+    color: #0178af;
+}
+
+.navBar-Respons .ul-hide{
+    display: none;
+    background-color: rgb(255 255 255 / 0);
+}
+
+.navBar-Respons .ul-show{
+    display: flex;
+}
+
+/* Icone Whatsapp */
 .wp-app{
     position: fixed;
     z-index: 10000;
@@ -520,6 +577,8 @@ footer a {
 
 .wp-app a p{
     opacity: 1;
+    font-weight: 400;
+    color: #ffffff;
     padding-left: 8px;
 }
 

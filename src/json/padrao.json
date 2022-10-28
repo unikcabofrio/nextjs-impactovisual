@@ -1,0 +1,12 @@
+{
+    "navbarDefault":[
+        {"title":"Contato","href":"#contato" ,"class":""},
+        {"title":"Material","href":"#material" ,"class":""},
+        {"title":"Home","href":"" ,"class":"active"}
+    ],
+    "navbar":[
+        {"title":"Home","href":"" ,"class":"active"},
+        {"title":"Material","href":"#material" ,"class":""},
+        {"title":"Contato","href":"#contato" ,"class":""}
+    ]
+}
