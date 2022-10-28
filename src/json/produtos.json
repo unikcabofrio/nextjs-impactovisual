@@ -285,15 +285,61 @@
         
     },
     {
+        "img":"tag_frente",
+        "title":"TAGS",
+        "description":"Só Frente • 1000(und) ",
+        "modelos":[
+            { "descri" : "9x5cm • Couchê 250g","price":"80,00"}
+        ]
+        
+    },
+    {
+        "img":"tag_frentept",
+        "title":"TAGS",
+        "description":"Frente (cor) Verso (preto e branco) • 1000(und)",
+        "modelos":[
+            { "descri" : "9x5cm • Couchê 250g","price":"90,00"}
+        ]
+        
+    },
+    {
+        "img":"tag_frenteverso",
+        "title":"TAGS",
+        "description":"Frente e Verso (colorido) • 1000(und)",
+        "modelos":[
+            { "descri" : "9x5cm • Couchê 250g","price":"95,00"}
+        ]
+        
+    },
+    {
+        "img":"tecido_sb",
+        "title":"TECIDO",
+        "description":"Sem Acabamento",
+        "modelos":[
+            { "descri" : "1m²","price":"65,00"}
+        ]
+        
+    },
+    {
+        "img":"tecido_banner",
+        "title":"TECIDO",
+        "description":"Tubete e Cordinha",
+        "modelos":[
+            { "descri" : "1m²","price":"70,00"}
+        ]
+        
+    },
+    {
         "img":"camisasb",
         "title":"CAMISAS POLIÉSTER",
         "description":"Brancas • P ao GG e infantil",
         "modelos":[
             { "descri" : "1(und)","price":"25,00 (Cada)"},
-            { "descri" : "3(und)","price":"23,00 (Cada)"},
-            { "descri" : "10(und)","price":"22,00 (Cada)"},
-            { "descri" : "30(und)","price":"21,00 (Cada)"},
-            { "descri" : "50(und)","price":"19,50 (Cada)"}
+            { "descri" : "5(und)","price":"24,00 (Cada)"},
+            { "descri" : "10(und)","price":"23,00 (Cada)"},
+            { "descri" : "30(und)","price":"22,00 (Cada)"},
+            { "descri" : "50(und)","price":"21,00 (Cada)"},
+            { "descri" : "100(und)","price":"19,50 (Cada)"}
         ]
         
     },
@@ -303,10 +349,11 @@
         "description":"Colorida • P ao GG e infantil",
         "modelos":[
             { "descri" : "1(und)","price":"28,00 (Cada)"},
-            { "descri" : "3(und)","price":"25,00 (Cada)"},
-            { "descri" : "10(und)","price":"24,00 (Cada)"},
-            { "descri" : "30(und)","price":"23,00 (Cada)"},
-            { "descri" : "50(und)","price":"22,00 (Cada)"}
+            { "descri" : "5(und)","price":"26,00 (Cada)"},
+            { "descri" : "10(und)","price":"25,00 (Cada)"},
+            { "descri" : "30(und)","price":"24,00 (Cada)"},
+            { "descri" : "50(und)","price":"23,00 (Cada)"},
+            { "descri" : "100(und)","price":"22,00 (Cada)"}
         ]
         
     },
@@ -316,9 +363,10 @@
         "description":"Raglan (Cinza c/Manga Preto) • P ao GG e infantil",
         "modelos":[
             { "descri" : "1(und)","price":"30,00 (Cada)"},
-            { "descri" : "3(und)","price":"28,00 (Cada)"},
-            { "descri" : "10(und)","price":"27,00 (Cada)"},
-            { "descri" : "50(und)","price":"24,00 (Cada)"}
+            { "descri" : "5(und)","price":"28,00 (Cada)"},
+            { "descri" : "20(und)","price":"27,00 (Cada)"},
+            { "descri" : "50(und)","price":"26,00 (Cada)"},
+            { "descri" : "50(und)","price":"25,00 (Cada)"}
         ]
         
     },
