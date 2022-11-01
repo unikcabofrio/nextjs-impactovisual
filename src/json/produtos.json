@@ -441,7 +441,7 @@
     {
         "img":"imp_A3_f",
         "title":"IMPRESSÃO A3",
-        "description":"Só Frente • 180 gramatura • só impressão",
+        "description":"Só Frente • Papel Couchê •  170 gramatura • só impressão",
         "modelos":[
             { "descri" : "1 (und)","price":"18,00  (cada)"},
             { "descri" : "de 2 até 10 (und)","price":"12,00 (cada)"},
@@ -453,7 +453,7 @@
     {
         "img":"imp_A3_fv",
         "title":"IMPRESSÃO A3",
-        "description":"Frente e Verso • 180 gramatura • só impressão",
+        "description":"Frente e Verso • Papel Couchê •  170 gramatura • só impressão",
         "modelos":[
             { "descri" : "1 (und)","price":"25,00  (cada)"},
             { "descri" : "de 2 até 10 (und)","price":"21,00 (cada)"},
