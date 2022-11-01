@@ -467,17 +467,17 @@
         "title":"PLACA PVC",
         "description":"Só Frente • 2mm • 1 unidade",
         "modelos":[
-            { "descri" : "20x30cm","price":"34,90"},
-            { "descri" : "20x30cm","price":"34,90"},
-            { "descri" : "20x30cm","price":"34,90"},
-            { "descri" : "20x30cm","price":"34,90"},
-            { "descri" : "20x30cm","price":"34,90"},
-            { "descri" : "20x30cm","price":"34,90"},
-            { "descri" : "20x30cm","price":"34,90"},
-            { "descri" : "20x30cm","price":"34,90"},
-            { "descri" : "20x30cm","price":"34,90"},
-            { "descri" : "100x30cm","price":"34,90"},
-            { "descri" : "100x100cm","price":"34,90"}
+            { "descri" : "20x30cm","price":"15,00"},
+            { "descri" : "30x40cm","price":"25,00"},
+            { "descri" : "40x50cm","price":"40,00"},
+            { "descri" : "50x50cm","price":"50,00"},
+            { "descri" : "50x60cm","price":"60,00"},
+            { "descri" : "50x70cm","price":"70,00"},
+            { "descri" : "50x80cm","price":"80,00"},
+            { "descri" : "60x80cm","price":"100,00"},
+            { "descri" : "60x90cm","price":"110,00"},
+            { "descri" : "100x70cm","price":"140,00"},
+            { "descri" : "100x100cm","price":"200,00"}
         ]
         
     },
