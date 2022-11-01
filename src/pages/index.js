@@ -24,6 +24,7 @@ export default function Index() {
     <Head>
       <title>Gráfica Impacto Visual</title>
       <meta name="google-site-verification" content="mMvD1pRH3dGoVYBc2wiLx_Qh3eR0aO65zevL3wLpdKg" />
+      <meta name="google-site-verification" content="kDR_NUiMe97tW8mOZxjZ7pN2nAqZ0h091wUxoBJaaIU" />
       <meta name="viewport" content="width=device-width, initial-scale=1"/>
       <meta name="description" content="Otimize seu site institucional e alcance seus objetivos."/>  
     </Head>
