@@ -401,6 +401,87 @@
         
     },
     {
+        "img":"pasta_simples",
+        "title":"PASTA SIMPLES",
+        "description":"Simples • Cor só frente",
+        "modelos":[
+            { "descri" : "50 (und)","price":"270,00"},
+            { "descri" : "100 (und)","price":"450,00"},
+            { "descri" : "250 (und)","price":"990,00"},
+            { "descri" : "500 (und)","price":"1699,00"}
+        ]
+        
+    },
+    {
+        "img":"pasta_corelha",
+        "title":"PASTA C/ ORELHA",
+        "description":"Com orelha • Cor só frente",
+        "modelos":[
+            { "descri" : "50 (und)","price":"275,00"},
+            { "descri" : "100 (und)","price":"459,00"},
+            { "descri" : "250 (und)","price":"999,00"},
+            { "descri" : "500 (und)","price":"1749,00"},
+            { "descri" : "1000 (und)","price":"1999,00"}
+        ]
+        
+    },
+    {
+        "img":"pasta_cbolsa",
+        "title":"PASTA C/ BOLSA",
+        "description":"Com bolsa • Cor só frente",
+        "modelos":[
+            { "descri" : "50 (und)","price":"339,00"},
+            { "descri" : "100 (und)","price":"625,00"},
+            { "descri" : "250 (und)","price":"1449,00"},
+            { "descri" : "500 (und)","price":"2449,00"},
+            { "descri" : "1000 (und)","price":"2599,00"}
+        ]
+        
+    },
+    {
+        "img":"imp_A3_f",
+        "title":"IMPRESSÃO A3",
+        "description":"Só Frente • 180 gramatura • só impressão",
+        "modelos":[
+            { "descri" : "1 (und)","price":"18,00  (cada)"},
+            { "descri" : "de 2 até 10 (und)","price":"12,00 (cada)"},
+            { "descri" : "de 11 até 20 (und)","price":"8,00 (cada)"},
+            { "descri" : "a cima de 21 (und)","price":"7,00 (cada)"}
+        ]
+        
+    },
+    {
+        "img":"imp_A3_fv",
+        "title":"IMPRESSÃO A3",
+        "description":"Frente e Verso • 180 gramatura • só impressão",
+        "modelos":[
+            { "descri" : "1 (und)","price":"25,00  (cada)"},
+            { "descri" : "de 2 até 10 (und)","price":"21,00 (cada)"},
+            { "descri" : "de 11 até 20 (und)","price":"13,00 (cada)"},
+            { "descri" : "a cima de 21 (und)","price":"12,00 (cada)"}
+        ]
+        
+    },
+    {
+        "img":"placa_pvc",
+        "title":"PLACA PVC",
+        "description":"Só Frente • 2mm • 1 unidade",
+        "modelos":[
+            { "descri" : "20x30cm","price":"34,90"},
+            { "descri" : "20x30cm","price":"34,90"},
+            { "descri" : "20x30cm","price":"34,90"},
+            { "descri" : "20x30cm","price":"34,90"},
+            { "descri" : "20x30cm","price":"34,90"},
+            { "descri" : "20x30cm","price":"34,90"},
+            { "descri" : "20x30cm","price":"34,90"},
+            { "descri" : "20x30cm","price":"34,90"},
+            { "descri" : "20x30cm","price":"34,90"},
+            { "descri" : "100x30cm","price":"34,90"},
+            { "descri" : "100x100cm","price":"34,90"}
+        ]
+        
+    },
+    {
         "img":"paineltc",
         "title":"PAINEL REDONDO",
         "description":"Tecido ( MicroFibra - OxFord )",
