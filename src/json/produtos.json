@@ -255,6 +255,16 @@
         
     },
     {
+        "img":"cavalete",
+        "title":"CAVALETE",
+        "description":"Lona + Suporte",
+        "modelos":[
+            { "descri" : "60x90cm","price":"260,00"},
+            { "descri" : "100x70cm","price":"290,00"}
+        ]
+        
+    },
+    {
         "img":"cardapiopapel",
         "title":"CARDÁPIO A4",
         "description":"Couchê 170g • Minímo 5 unidades",
@@ -281,6 +291,26 @@
         "modelos":[
             { "descri" : "20x30cm, 15(und)","price":"17,90 (cada)"}, 
             { "descri" : "30x40cm, 8(und)","price":"35,00 (cada)"} 
+        ]
+        
+    },
+    {
+        "img":"tagp_frente",
+        "title":"TAGS",
+        "description":"Só Frente • 1000(und) ",
+        "modelos":[
+            { "descri" : "5x4,5cm • Sem Furo","price":"50,00"},
+            { "descri" : "5x4,5cm • Com Furo","price":"60,00"}
+        ]
+        
+    },
+    {
+        "img":"tagp_frentept",
+        "title":"TAGS",
+        "description":"Frente (cor) Verso (preto e branco) • 1000(und)",
+        "modelos":[
+            { "descri" : "5x4,5cm • Sem Furo","price":"55,00"},
+            { "descri" : "5x4,5cm • Com Furo","price":"65,00"}
         ]
         
     },
@@ -339,7 +369,7 @@
             { "descri" : "10(und)","price":"23,00 (Cada)"},
             { "descri" : "30(und)","price":"22,00 (Cada)"},
             { "descri" : "50(und)","price":"21,00 (Cada)"},
-            { "descri" : "100(und)","price":"19,50 (Cada)"}
+            { "descri" : "100(und)","price":"20,00 (Cada)"}
         ]
         
     },
