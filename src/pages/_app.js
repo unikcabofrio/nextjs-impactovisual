@@ -1,21 +1,10 @@
-import App from 'next/app';
+import GlobalStyle from 'style/global'
 
-// CSSS
-import '../css/global.css';
-import '../css/responsive.css';
-
-
-const MyApp = ({ Component, props }) => {
-  return(
+export default function MyApp({ Component, pageProps }) {
+  return (
     <>
-      <Component {...props} />
+      <GlobalStyle />
+      <Component {...pageProps} />
     </>
-  );
-};
-
-MyApp.getInitialProps = async (appContext) => {
-  const appProps = await App.getInitialProps(appContext);
-  return { ...appProps };
-};
-
-export default App;
+  )
+}

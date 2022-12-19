@@ -1,46 +1,54 @@
-import {useEffect,useState} from 'react'
 import Head from 'next/head'
-import jQuery from 'jquery'
+import Script from 'next/script'
+import { useEffect, useState } from 'react'
 
-// Import-Components
-import Navbar from '../components/NavBar'
-import Whatsapp from '../components/Whatsapp'
-
-// Import-pages
-import Header from '../components/pages/header'
-import Material from '../components/pages/material'
-import Contato from '../components/pages/contato'
+// Imports Sections
+import { NavBarResponse, NavBar } from 'components/navBar'
+import Preload from 'components/preload'
+import { Whatsapp } from 'components/buttons'
+import Home from 'components/section/home'
+import Material from 'components/section/material'
+import Unidade from 'components/section/unidade'
+import Clientes from 'components/section/clientes'
+import Contato from 'components/section/contato'
 
 export default function Index() {
-
+  const [executed, setExecuted] = useState(true)
+  const [navBar, setNavBar] = useState(<NavBar id="navbar" />)
   useEffect(() => {
-    (function ($) {})(jQuery);
+    if (executed) {
+      if (window.screen.width < 600) {
+        setNavBar(<NavBarResponse id="navbar" />)
+      }
 
-    
-  },[jQuery])
-
+      window.scroll(0, 0)
+      setExecuted(false)
+    }
+  }, [navBar, executed])
   return (
-  <>
-    <Head>
-      <title>Gráfica Impacto Visual</title>
-      <meta name="google-site-verification" content="mMvD1pRH3dGoVYBc2wiLx_Qh3eR0aO65zevL3wLpdKg" />
-      <meta name="google-site-verification" content="kDR_NUiMe97tW8mOZxjZ7pN2nAqZ0h091wUxoBJaaIU" />
-      <meta name="viewport" content="width=device-width, initial-scale=1"/>
-      <meta name="description" content="Otimize seu site institucional e alcance seus objetivos."/>  
-    </Head>
+    <>
+      <Head>
+        <title>Gráfica - Impacto Visual</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Compre seus produtos -> Personalize -> Recebe em poucos dias! Confira o preço especial ACABA HOJE"
+        />
+      </Head>
 
-    <Whatsapp/>
-    <Navbar/>
-    <div className='layout'>
-      
-      {/* <header id="Home"></header> */}
+      <Preload />
+      <Whatsapp />
+
+      {navBar}
       <main>
-        <Material id={'material'} />
+        <Home id="home" />
+        <Material id="material" />
+        <Unidade id="unidade" />
+        <Clientes id="clientes" />
+        <Contato id="contato" />
       </main>
-      <footer id="contato">
-        <Contato/>
-      </footer>
-    </div>
-  </>
+
+      <Script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></Script>
+    </>
   )
 }
