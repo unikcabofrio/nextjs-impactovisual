@@ -495,10 +495,10 @@
       "title":"CANECA PORCELANA",
       "description":"Porcelana • 100% Personalizavem • Arte 9x20cm",
       "modelos":[
-          { "descri" : "1(und)","price":"28,00 (Cada)"},
-          { "descri" : "Acima de 3(und)","price":"25,00 (Cada)"},
-          { "descri" : "Acima de 10(und)","price":"24,00 (Cada)"},
-          { "descri" : "Acima de 20(und)","price":"22,00 (Cada)"}
+          { "descri" : "1(und)","price":"30,00 (Cada)"},
+          { "descri" : "Acima de 3(und)","price":"28,00 (Cada)"},
+          { "descri" : "Acima de 10(und)","price":"25,00 (Cada)"},
+          { "descri" : "Acima de 20(und)","price":"23,00 (Cada)"}
       ]
 
   },
