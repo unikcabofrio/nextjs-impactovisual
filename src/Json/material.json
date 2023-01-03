@@ -592,7 +592,7 @@
   {
       "img":"talao1v",
       "title":"TALÃO 10X14cm",
-      "description":"1 Via • Sem Número",
+      "description":"1 Via • Sem Número • Preto e Branco",
       "modelos":[
           { "descri" : "5(und) 50 Folhas(cada)","price":"65,00"},
           { "descri" : "10(und) 50 Folhas(cada)","price":"85,00"},
@@ -603,7 +603,7 @@
   {
       "img":"talao2v",
       "title":"TALÃO 10X14cm",
-      "description":"2 Via • Com Número",
+      "description":"2 Via • Com Número • Mesma Arte",
       "modelos":[
           { "descri" : "10(und) 50 Folhas(cada)","price":"160,00"},
           { "descri" : "20(und) 50 Folhas(cada)","price":"230,00"}
@@ -611,9 +611,19 @@
 
   },
   {
+    "img":"talao1v",
+    "title":"TALÃO 10X15cm",
+    "description":"1 Via • Colorido • Mesma Arte",
+    "modelos":[
+        { "descri" : "10(und) 100 Folhas(cada)","price":"160,00"},
+        { "descri" : "20(und) 100 Folhas(cada)","price":"230,00"}
+    ]
+
+  },
+  {
       "img":"talao1v",
       "title":"TALÃO 14X20cm",
-      "description":"1 Via • Sem Número",
+      "description":"1 Via • Sem Número • Preto e Branco ",
       "modelos":[
           { "descri" : "5(und) 50 Folhas(cada)","price":"85,00"},
           { "descri" : "10(und) 50 Folhas(cada)","price":"120,00"},
@@ -623,7 +633,7 @@
   },
   {
       "img":"talao2v",
-      "title":"TALÃO 14X20cm",
+      "title":"TALÃO 15X21cm",
       "description":"2 Via • Com Número",
       "modelos":[
           { "descri" : "10(und) 100 Folhas(cada)","price":"220,00"}
@@ -633,7 +643,7 @@
   {
       "img":"talao1v",
       "title":"TALÃO 10x20cm",
-      "description":"1 Via • Sem Número",
+      "description":"1 Via • Sem Número  • Preto e Branco",
       "modelos":[
           { "descri" : "5(und) 50 Folhas(cada)","price":"80,00"},
           { "descri" : "10(und) 50 Folhas(cada)","price":"120,00"},
@@ -643,7 +653,7 @@
   },
   {
       "img":"talao2v",
-      "title":"TALÃO 10x20cm",
+      "title":"TALÃO 10x21cm",
       "description":"2 Via • Com Número",
       "modelos":[
           { "descri" : "10(und) 100 Folhas(cada)","price":"220,00"}

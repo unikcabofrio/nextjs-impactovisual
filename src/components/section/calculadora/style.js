@@ -10,7 +10,7 @@ export const container = styled.div`
   align-items: center;
 `
 
-export const Calculadora = styled.div`
+export const containerCalc = styled.div`
   width: 80vw;
   padding: 4vh 3vw;
   border: 1px solid #f9f9f9;
