@@ -70,6 +70,16 @@
 
   },
   {
+      "img":"cavalete",
+      "title":"CAVALETE ",
+      "description":"Frente e Verso • 1 Unidade",
+      "modelos":[
+          { "descri" : "60x90cm","price":"250,00"},
+          { "descri" : "70x100cm","price":"290,00"}
+      ]
+
+  },
+  {
       "img":"adesivo",
       "title":"ADESIVOS DE VINIL",
       "description":"Adesivo Vinil, Auto Colantes, Só Frente",
