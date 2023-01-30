@@ -47,7 +47,7 @@ class MyDocument extends Document {
         </Head>
         <body>
           <noscript>
-            <iframe
+            {/* <iframe
               src="https://www.googletagmanager.com/ns.html?id=GTM-W989KNV"
               height="0"
               width="0"
@@ -55,7 +55,7 @@ class MyDocument extends Document {
                 display: 'none',
                 visibility: 'hidden'
               }}
-            ></iframe>
+            ></iframe> */}
           </noscript>
           <Main />
           <NextScript />
