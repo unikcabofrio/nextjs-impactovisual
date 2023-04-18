@@ -84,7 +84,7 @@
       "title":"ADESIVOS DE VINIL",
       "description":"Adesivo Vinil, Auto Colantes, Só Frente",
       "modelos":[
-        { "descri" : "100x100cm","price":"69,90"},
+        { "descri" : "100x100cm","price":"75,00"},
         { "descri" : "Outras Medidas Consultar Valor","price":"?"}
       ]
 
@@ -156,9 +156,9 @@
       "title":"PANFLETOS 15x21cm",
       "description":"115 Gramatura • Só Frente",
       "modelos":[
-          { "descri" : "1000(und)","price":"279,90"},
-          { "descri" : "2500(und)","price":"349,90"},
-          { "descri" : "5000(und)","price":"499,90"}
+          { "descri" : "1000(und)","price":"289,90"},
+          { "descri" : "2500(und)","price":"359,90"},
+          { "descri" : "5000(und)","price":"529,90"}
       ]
 
   },
@@ -167,9 +167,9 @@
       "title":"PANFLETOS 15x21cm",
       "description":"115 Gramatura • Frente/Verso",
       "modelos":[
-          { "descri" : "1000(und)","price":"319,90"},
-          { "descri" : "2500(und)","price":"409,90"},
-          { "descri" : "5000(und)","price":"599,00"}
+          { "descri" : "1000(und)","price":"335,00"},
+          { "descri" : "2500(und)","price":"429,00"},
+          { "descri" : "5000(und)","price":"625,00"}
       ]
 
   },
@@ -292,7 +292,7 @@
   },
   {
       "img":"tag_frente",
-      "title":"TAGS",
+      "title":"TAGS 9x5cm",
       "description":"Só Frente • 1000(und) ",
       "modelos":[
           { "descri" : "9x5cm • Couchê 250g","price":"80,00"}
@@ -301,7 +301,7 @@
   },
   {
       "img":"tag_frentept",
-      "title":"TAGS",
+      "title":"TAGS 9x5cm",
       "description":"Frente (cor) Verso (preto e branco) • 1000(und)",
       "modelos":[
           { "descri" : "9x5cm • Couchê 250g","price":"90,00"}
@@ -310,13 +310,33 @@
   },
   {
       "img":"tag_frenteverso",
-      "title":"TAGS",
+      "title":"TAGS 9x5cm",
       "description":"Frente e Verso (colorido) • 1000(und)",
       "modelos":[
           { "descri" : "9x5cm • Couchê 250g","price":"95,00"}
       ]
 
   },
+  {
+    "img":"tagp_frente",
+    "title":"TAGS 5x4,5cm",
+    "description":"Só Frente • 1000(und) • 5x4,5cm",
+    "modelos":[
+        { "descri" : "com furo","price":"65,00"},
+        { "descri" : "sem furo","price":"55,00"}
+    ]
+
+},
+{
+    "img":"tagp_frentept",
+    "title":"TAGS 5x4,5cm",
+    "description":"Frente (cor) Verso (preto e branco) • 1000(und) • 5x4,5cm",
+    "modelos":[
+        { "descri" : "com furo","price":"70,00"},
+        { "descri" : "sem furo","price":"60,00"}
+    ]
+
+},
   {
       "img":"tecido_sb",
       "title":"TECIDO",
