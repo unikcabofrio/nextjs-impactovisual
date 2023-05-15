@@ -6,29 +6,37 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint src --fix"
+    "lint": "next lint --fix"
   },
   "dependencies": {
-    "@socketlabs/email": "^1.2.3",
-    "jquery": "^3.6.1",
-    "next": "^12.3.1",
-    "nodemailer": "^6.8.0",
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-brands-svg-icons": "^6.3.0",
+    "@fortawesome/free-regular-svg-icons": "^6.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@next/font": "13.1.5",
+    "embla-carousel": "^7.1.0",
+    "embla-carousel-autoplay": "^7.1.0",
+    "jquery": "^3.6.3",
+    "mysql2": "^3.2.4",
+    "next": "13.1.5",
+    "nodemailer": "^6.9.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-fontawesome": "^1.7.1",
-    "react-slideshow-image": "^4.0.5",
-    "react-toastify": "^9.1.1",
-    "styled-components": "^5.3.6",
-    "xhr2": "^0.2.1"
+    "styled-jsx": "^5.1.2"
   },
   "devDependencies": {
-    "babel-plugin-styled-components": "^2.0.7",
-    "eslint": "8.22.0",
-    "eslint-config-next": "^13.1.1",
-    "eslint-config-prettier": "^8.5.0",
+    "airbnb": "^0.0.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-next": "^13.1.6",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.31.11",
-    "eslint-plugin-react-hooks": "^5.0.0-next-353c30252-20221202",
-    "prettier": "2.8.0"
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^2.8.3"
   }
 }
