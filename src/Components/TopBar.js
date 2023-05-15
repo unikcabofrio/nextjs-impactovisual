@@ -71,7 +71,7 @@ export default function TopBar({ id, settings, setFilterProdutos, products }) {
             cursor: 'pointer'
           }}
           onClick={() => {
-            location.href = '/panel'
+            location.href = '/painel'
           }}
         />
         <FontAwesomeIcon
