@@ -7,30 +7,25 @@ import ListProduct from '@/Components/ListProduct'
 
 export async function getServerSideProps() {
   // eslint-disable-next-line no-undef
-  const res = await fetch(`${process.env.URL_WEBSITE}/api/ConnectMySql`, {
-    body: JSON.stringify({
-      query: 'SELECT * FROM product'
-    }),
+  const req1 = await fetch(`${process.env.URL_WEBSITE}/api/select`, {
+    method: 'POST',
     headers: {
       'Content-Type': 'application/json'
     },
-    method: 'POST'
+    body: JSON.stringify({ table: 'product' })
   })
-
-  const products = await res.json()
+  const products = await req1.json()
 
   // eslint-disable-next-line no-undef
-  const res_ = await fetch(`${process.env.URL_WEBSITE}/api/ConnectMySql`, {
-    body: JSON.stringify({
-      query: 'SELECT * FROM settings'
-    }),
+  const req2 = await fetch(`${process.env.URL_WEBSITE}/api/select`, {
+    method: 'POST',
     headers: {
       'Content-Type': 'application/json'
     },
-    method: 'POST'
+    body: JSON.stringify({ table: 'config' })
   })
+  const settings = await req2.json()
 
-  const settings = await res_.json()
   return { props: { products, settings } }
 }
 

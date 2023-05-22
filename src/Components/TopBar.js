@@ -63,7 +63,7 @@ export default function TopBar({ id, settings, setFilterProdutos, products }) {
           backgroundColor: bgColorFixed
         }}
       >
-        <FontAwesomeIcon
+        {/* <FontAwesomeIcon
           icon={['fas', 'bars']}
           className={'icon'}
           style={{
@@ -73,7 +73,7 @@ export default function TopBar({ id, settings, setFilterProdutos, products }) {
           onClick={() => {
             location.href = '/painel'
           }}
-        />
+        /> */}
         <FontAwesomeIcon
           icon={['fas', 'magnifying-glass']}
           className={'icon'}

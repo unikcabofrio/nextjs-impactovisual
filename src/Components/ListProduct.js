@@ -1,5 +1,12 @@
 export default function ListProduct({ id, filterProdutos }) {
-  console.log(filterProdutos)
+  function JsonParser(obj) {
+    try {
+      const objeto = JSON.parse(obj)
+      return objeto
+    } catch (error) {
+      return []
+    }
+  }
   return (
     <div
       id={id}
@@ -148,7 +155,7 @@ export default function ListProduct({ id, filterProdutos }) {
                       </tr>
                     </thead>
                     <tbody>
-                      {item.model_produtct.map((itens, key) => {
+                      {JsonParser(item.model_produtct).map((itens, key) => {
                         return (
                           <tr
                             key={key}
