@@ -29,6 +29,7 @@ export default async function handler(req, res) {
 
     connection.end()
   } catch (error) {
+    console.log(error)
     return res.status(error.statusCode || 500).json(error)
   }
 }
