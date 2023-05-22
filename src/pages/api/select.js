@@ -1,4 +1,4 @@
-import db from 'lib/db'
+import db from '@/pages/api/db'
 
 export default async function handler(req, res) {
   try {
