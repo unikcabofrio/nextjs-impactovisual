@@ -82,7 +82,7 @@ export default function Index() {
         <div
           id={'__main'}
           style={{
-            height: '95vh'
+            height: '90vh'
           }}
         >
           {auth ? (
