@@ -5,6 +5,7 @@ import jQuery from 'jquery'
 export default function TopBar({ id, settings, setFilterProdutos, products }) {
   const [displayHour, setDisplayHour] = useState('none')
   const [bgColorFixed, setBgColorFixed] = useState('Transparent')
+  const [opTitle, setOpTitle] = useState(0)
   const [iconSearch, setIconSearch] = useState(['fas', 'magnifying-glass'])
 
   function ClearFilter() {
@@ -35,8 +36,10 @@ export default function TopBar({ id, settings, setFilterProdutos, products }) {
       $('#__main').scroll(function () {
         if ($(this).scrollTop() === 0) {
           setBgColorFixed('Transparent')
+          setOpTitle(0)
         } else {
           setBgColorFixed('#007db9')
+          setOpTitle(1)
         }
       })
     })(jQuery)
@@ -63,6 +66,17 @@ export default function TopBar({ id, settings, setFilterProdutos, products }) {
           backgroundColor: bgColorFixed
         }}
       >
+        <h4
+          style={{
+            opacity: opTitle,
+            width: '100%',
+            textAlign: 'center',
+            color: '#fff',
+            fontSize: '1.5rem'
+          }}
+        >
+          {settings[0]['name']}
+        </h4>
         {/* <FontAwesomeIcon
           icon={['fas', 'bars']}
           className={'icon'}
@@ -160,6 +174,7 @@ export default function TopBar({ id, settings, setFilterProdutos, products }) {
             {settings[0]['descript']}
           </p>
           <button
+            className="timer"
             style={{
               marginTop: '1rem'
             }}

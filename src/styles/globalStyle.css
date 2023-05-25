@@ -36,7 +36,7 @@ body{
   position: absolute;
   top:0;
   width: 100vw;
-  height: 85vh;
+  height: 95vh;
   z-index: -1;
   overflow-y: auto;
 }
@@ -151,6 +151,11 @@ button:active::before {
 }
 
 /* ---------------------------------------------- */
+.black >path {
+  fill: #000000!important;
+}
+
+
 .socialTable:first-child {
   border-right: 1px solid #d1d1d1;
 }

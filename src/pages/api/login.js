@@ -19,7 +19,7 @@ export default async function handler(req, res) {
 
     connection.query(
       // eslint-disable-next-line no-undef
-      `${process.env.SQL_SELECT} ${req.body.table}`,
+      `${process.env.SQL_LOGIN} '${req.body.token}'`,
       (error, results) => {
         if (error) {
           return res.status(200).json(error)

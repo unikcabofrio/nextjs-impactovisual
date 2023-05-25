@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import '@/styles/globalStyle.css'
+import '@/styles/response.css'
 
 // eslint-disable-next-line no-undef
 const { library } = require('@fortawesome/fontawesome-svg-core')

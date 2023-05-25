@@ -1,0 +1,17 @@
+/* Tablets */
+@media only screen and (min-width: 600px) {
+  .box_product{
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr)) !important;
+  }
+
+  .timer{
+    width: 80% !important;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 768px) {
+  .timer{
+    width: 50% !important;
+  }
+}

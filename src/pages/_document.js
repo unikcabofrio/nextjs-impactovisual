@@ -20,10 +20,6 @@ class __Document extends Document {
         <body>
           <Main />
           <NextScript />
-          <footer>
-            © {new Date().getFullYear()} - Todos os direitos reservados a
-            <a href="https:\\www.unikcabofrio.com.br"> Unik Cabo Frio</a>
-          </footer>
         </body>
       </Html>
     )
