@@ -1,5 +1,5 @@
 {
-  "name": "website-impactovisual",
+  "name": "website-unikcabofrio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -15,11 +15,9 @@
     "@fortawesome/free-solid-svg-icons": "^6.3.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@next/font": "13.1.5",
-    "crypto-js": "^4.1.1",
     "embla-carousel": "^7.1.0",
     "embla-carousel-autoplay": "^7.1.0",
     "jquery": "^3.6.3",
-    "mysql2": "^3.2.4",
     "next": "13.1.5",
     "nodemailer": "^6.9.1",
     "react": "18.2.0",
