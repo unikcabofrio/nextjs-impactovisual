@@ -16,6 +16,10 @@
             {
                 "descri": "9x10cm • Couchê 250g",
                 "price": "139,90"
+            },
+            {
+                "descri": "Borda Boleada Adicional de ",
+                "price": "10,00"
             }
         ]
     },
@@ -32,6 +36,10 @@
             {
                 "descri": "9x5cm • CS2 ",
                 "price": "79,90"
+            },
+            {
+                "descri": "Borda Boleada Adicional de ",
+                "price": "10,00"
             }
         ]
     },
@@ -56,6 +64,10 @@
             {
                 "descri": "9x10cm • CS2 ",
                 "price": "169,90"
+            },
+            {
+                "descri": "Borda Boleada Adicional de ",
+                "price": "10,00"
             }
         ]
     },
@@ -72,6 +84,10 @@
             {
                 "descri": "9x10cm • Couchê 300g",
                 "price": "269,90"
+            },
+            {
+                "descri": "Borda Boleada Adicional de ",
+                "price": "10,00"
             }
         ]
     },
@@ -553,7 +569,7 @@
     },
     {
         "position_product": 3,
-        "image_product": "https://www.topprintrj.com.br/uploads/produtos/tag-mini-frente-5x4-5cm-couche-250g-verniz-total-brilho-frente-furo-5mm-frente-16188649931554989971607deb617f408.jpg",
+        "image_product": "data:image/jpeg;base64,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",
         "name_product": "TAGS 5x4,5cm",
         "descript_product": "Só Frente • 1000(und) • 5x4,5cm",
         "model_product": [
@@ -651,7 +667,7 @@
         "position_product": 4,
         "image_product": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl19qIOPiDL_Xf5Bnj0mCVrIM3WDQRjkzmwg&usqp=CAU",
         "name_product": "CAMISAS POLIÉSTER",
-        "descript_product": "Colorida • P ao GG e infantil",
+        "descript_product": "Colorida • P ao GG",
         "model_product": [
             {
                 "descri": "1 (und)",
@@ -683,7 +699,7 @@
         "position_product": 4,
         "image_product": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRJm7z6hAQ__Ktc3gdZP6rIabKFLTFkBEuVA&usqp=CAU",
         "name_product": "CAMISAS POLIÉSTER",
-        "descript_product": "Raglan (Cinza c/Manga Preto) • P ao GG e infantil",
+        "descript_product": "Raglan (Cinza c/Manga Preto) • P ao GG",
         "model_product": [
             {
                 "descri": "1 (und)",
@@ -709,7 +725,7 @@
     },
     {
         "position_product": 4,
-        "image_product": "data:image/jpeg;base64,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",
+        "image_product": "https://lh3.googleusercontent.com/pw/AIL4fc8B4a2qmoLb0XvKLzQ4_bJ5IIDMFtoZONufM-w0XDMm4MFAIRqJ5q5iPsR__pYR0X6WWzH8rxZVrbOWaUV4f2qIw9qw-OE7wYz7YCcaOjNbSPq6fvF_PCoQJdkw_EYlw-oeA-NHe6gYDDJ1IvTnnYzbKpnk-yIUb-EjJhmBFweIRAvhUBkSOQMbJo76GDmkNBCYbQyVQY0xIbv9B6EF1zF5xd8P9sPSPAOq_Ee1mGEvUEZTWgxG9QSizAeujmcioc6NxSjp5dr00jK0lLfS2h-_uTPXDFtxRYlth1oiUAU32TQQx48252ujS0r-CACl96Q29GLAX5JVgxT4cI5xtbYQvjNOMKuFV5oPYG9IQasQQOWXG3X9KxKiASzr1693HrY5iA_ViBTOtLZv-zENim4KWJg9YGqsxindzl8W4nmFsQsThq8fRRhNpdChl_epVVmiM3aRZuURdsyH6jLVxw12molLM322nfcVwZGiuUd8_ErLANwr0M3M0Nm20TiK0i8AieMkdY7u2maN_i8NJhT33o1Fm7LAPlUl68dRXnZxDibDGlHEYCae2sQIbr-3Dn53RZE1cSwS0p_kG-RQZJ6vMFjkYIFQs9SdDrzBAWDw--U7to0HpL5FiqauMZkGxkDIYGgRRF6YbX4AV7nJNeTcpYrvkqdEE7GctGJWjCPlcXXTiJlgWEKoKiaYRWzGQMnU4cacwdsyaPRYCQ6jh5exzmkJrwTfgvE_cifZj0G8rYR2LCwMDcso5kdpGullDxKteeU2oudVnnvfQwPztfG4GGqQdz5i5R1M0x4KkZAYumN7ehvWnwlKtisbp3D9TjcW879DZdD7rl2z4lJHcwhBZrmk9pBBsCvMisQE0So1n6p1fjWFQnODqFKVSrEqbf07J69GD1ecy_KeSMaZNoiHR6Fy3Q5-TTIHBezR_pjgiOibBqS_CGt5bUuXSwI=w619-h619-s-no?authuser=0",
         "name_product": "CAMISAS HELANCA",
         "descript_product": "Tecido Helanca • 100% Personalizavem • P ao GG e infantil( 8 anos e 12 anos )",
         "model_product": [
@@ -730,12 +746,8 @@
         "descript_product": "Tecido Helanca • 100% Personalizavem • P ao GG",
         "model_product": [
             {
-                "descri": "1 (und)",
-                "price": "90,00 (Cada)"
-            },
-            {
-                "descri": "Acima de 3(und)",
-                "price": "75,00 (Cada)"
+                "descri": "Mínimo 3(und)",
+                "price": "80,00 (Cada)"
             }
         ]
     },
@@ -871,23 +883,23 @@
         "model_product": [
             {
                 "descri": "1 (und)",
-                "price": "10,00  (cada)"
+                "price": "13,00  (cada)"
             },
             {
                 "descri": "de 2 até 10 (und)",
-                "price": "6,50 (cada)"
+                "price": "10,00 (cada)"
             },
             {
                 "descri": "de 11 até 20 (und)",
-                "price": "5,50 (cada)"
+                "price": "8,00 (cada)"
             },
             {
                 "descri": "de 21 até 50 (und)",
-                "price": "5,00 (cada)"
+                "price": "7,00 (cada)"
             },
             {
                 "descri": "a cima de 51 (und)",
-                "price": "4,50 (cada)"
+                "price": "6,00 (cada)"
             }
         ]
     },
@@ -1169,7 +1181,7 @@
     },
     {
         "position_product": 5,
-        "image_product": "https://images.tcdn.com.br/img/img_prod/555460/180_taca_230ml_vidro_cristal_para_champagne_elegance_livesub_transparente_2680_2_e21fb0f6c6a58ec8031913be59b518b1.jpg",
+        "image_product": "https://lh3.googleusercontent.com/pw/AIL4fc8EiExPdhqBYTVFUc4O99hNhttCUMCyBkB6-Fg3D79qXxEC0PCLO8uEnWcJNbSgiA6vYHi_hwIVKVpV2EiwY6m4WnvQC0e8-xprkyuYzY0L7yoCrKioZnqD7ue9jhCoPWzRyCbakHKWnqqSwYQiLvN-CV4MulvJ7UAfqaNiGllG_W9ilCXYuZAhOo0uPkyDqPyXBo9QGcqAhskqpsL2vug-VpglZrp6g7y7ZuPdiWI3Y-70A-7soRrEXaC9j5Hv2R2q0xM_YWY9LIKS1PJe0rtVb0pJOW7xk-M6FpJUOJ5aECY7Ue4gYxCliU9ip6XCWfju11AkhgvHLAPLlp-0TkKCML6eHbe8S7tJ96mBVmNZCJ7ID2urHZmuAx_kWZmluecvgtArr6-dLSlQf-cgAwK2IZaHVMFFsjZRinyYLmqgxMoJS1Mvwsu8We3o6LTc8yj4F0vt7pZbpT0P8PTwvzHpNt2VOP9LiKp9tfyz3RL6o1DTdTAjT8ozeDrcesjIjUfi4NMLIg0D2IlMJn3V4P84y2Z75KzYExWIeqcG_x1oIEj0Kb2qeztXH9lKc-EMkBmGrYdzsyy1XpGZxxpJSkMpAM3z5M3dikhzZwoJEceQ9xeDDe4szjA9zPOLPgqrJTXuFZaycNe0M_s3glriGMpmCkTR6T9Dg6gkeyxmhwIV5JOdu7M19LJ2h8KY6PZZxQVLvcu7uk5Pm55qKf4t0VvMBmH4ZioOko5pUZWHHLmN3LEIcYknDDU_sWDas1YiFh47iSPv8dqE7M3cBKEeplKDmj9bl0fA-KTMPvhlSF66_OGPdkW-x0dN9nMYDgdBxBPR39Nql3R3ZdkKV4nuTw1hqkyoPMq7kv-Bj_OSXAjTHgiy3vGkNfJh7kW39M4NA9Nj6lyfylVjOSefNMOoDYz0XPs_IhhWHWnvKfTQi7R04FlukM5IYqfGJwu2B7o=w348-h619-s-no?authuser=0",
         "name_product": "TAÇA DE VINHO",
         "descript_product": "Cor branca Cristal • 320ml",
         "model_product": [
@@ -1300,6 +1312,30 @@
             {
                 "descri": "100(und)",
                 "price": "2,80 (Cada)"
+            }
+        ]
+    },
+    {
+        "position_product": 5,
+        "image_product": "https://lh3.googleusercontent.com/pw/AIL4fc8ztPEkH3DLpVDk8YSyUmBGgWAta07md45maxwqbktISuiwXsaQ7L_HZP98USus_i42cubyCxNcomXOuiFwEniabvo7llWPUoivSyt0KACcoisnDcLr6BkpxRfcFxBVpRthLU8hu3j29IogRIj0utEO5KbTBk0gRh3LMtCvKafNvmn-yIpA93NJQ0Od6S5QSxc6QMlmGlWkvYKZoqt8BCfv7eHxUy6M157GRO-RGIIMMGqnfGJfRq6ulbUurzVJHymmJ0XrW-aVxAo3F_6DK9wVJ0wFKeeFtGGcFrKnj5MeSYkSgLAqeFVF6QRVDJA3_8KJioyhlmu9JJ0KcsN0lpVuCwUXD1llvFWyfg7OYQGy46bsAg0K8QcmNh2a7FjrrPWOsAO-RiG_4s7XEj4F0g7sGbDditYO_m7htyhjj29OqslIdi980dNSG4Y4yoFcztwm11Dz179f7uCC-iENbp2WO-zf1jq0TXvnMBwteO1HLtNICEIuy0KJOF7FtkWU2k7d3wNPgOiJVpYVd5zrZlCMAxWdZs1vErOgPlA5BiA02gfE93EsuDY1n3iknT5Gkrwv1uJ8B0ZsF2hd005CLvD0bj7K_Qi7Gs_Feb_xaiTryGxE5QgllzIG8MkrqXvzMoO6Yai9jrodaKxJWZyPDycF6csZ1UkAmFmfvJibHwTGhDLgr08UW7WTEjVXlPmqwUND6PPGFaO2M2XxN81Lax6pRN5VY3nPaFtaKl2FGWOR9SHGQlOYzxc15_dlABjBPBLje5t-pyWb9NQBsnAD1hQEDlRlkDWkStVFBL7bAb27gACxpq0u-eKfNKgPuPZE36-lM-ow2FaJYrDcX5IWCCoUxHWStFd87sQr0wbgZI7AQ5W0GPt1182w-OpTYe_uvGXqUBzuQlnZ8HPAXsxEG78TEXaq7N0d60Z4dxQrgyIn3GG0pLzjOlaEupnpIfA=w707-h619-s-no?authuser=0",
+        "name_product": "CANECA ACRÍLICA",
+        "descript_product": "Com Degradê • 300ml",
+        "model_product": [
+            {
+                "descri": "20(und)",
+                "price": "5,00 (Cada)"
+            },
+            {
+                "descri": "30(und)",
+                "price": "4,50 (Cada)"
+            },
+            {
+                "descri": "50(und)",
+                "price": "3,80 (Cada)"
+            },
+            {
+                "descri": "100(und)",
+                "price": "3,50 (Cada)"
             }
         ]
     },
