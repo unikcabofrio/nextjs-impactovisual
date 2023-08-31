@@ -139,11 +139,35 @@
         "position_product": 1,
         "image_product": "https://www.uniartes.com.br/uploads/produtos/lona-p-luminoso-ilhos-lona-backlight-440g-brilho-ilhos-4x0-fundo-branco-qualidade-fotografica.png",
         "name_product": "LONA ",
-        "descript_product": "Verniz Total •380 Gramatura • Só Frente • 1 Unidade",
+        "descript_product": "Verniz Total • Só Frente • 1 Unidade",
         "model_product": [
             {
-                "descri": "1m²",
+                "descri": "1m² - 380 Gramatura ",
                 "price": "69,90"
+            },
+            {
+                "descri": "1m² - 440 Gramatura Uv ",
+                "price": "95,00"
+            },
+            {
+                "descri": "Outras Medidas",
+                "price": "Consultar"
+            }
+        ]
+    },
+    {
+        "position_product": 1,
+        "image_product": "https://graficaelopes.boravender.online/storage/produtos/10429/img/20200703_0_lona_2.jpg",
+        "name_product": "LONA FRENTE E VERSO",
+        "descript_product": "Verniz Total • 1 Unidade",
+        "model_product": [
+            {
+                "descri": "1m² - 380 Gramatura ",
+                "price": "95,00"
+            },
+            {
+                "descri": "1m² - 440 Gramatura Uv ",
+                "price": "105,00"
             },
             {
                 "descri": "Outras Medidas",
@@ -185,8 +209,8 @@
     },
     {
         "position_product": 1,
-        "image_product": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.stalyadesivos.com.br%2Fuploads%2Fprodutos%2Fadesivo-transparente-16058295068295000585fb703827f459.png&tbnid=1_EHLueqkSanUM&vet=12ahUKEwionvahgoeBAxXQS7gEHcB5DeEQMyguegUIARDUAQ..i&imgrefurl=https%3A%2F%2Fwww.stalyadesivos.com.br%2Fproduto%2Fadesivo-transparenteprof&docid=91dHhS0sr4EzfM&w=600&h=600&q=adesivo%20vinil%20transparente%20png&hl=pt-BR&ved=2ahUKEwionvahgoeBAxXQS7gEHcB5DeEQMyguegUIARDUAQ",
-        "name_product": "ADESIVOS DE VINIL",
+        "image_product": "https://www.stalyadesivos.com.br/uploads/produtos/adesivo-transparente-16058295068295000585fb703827f459.png",
+        "name_product": "ADESIVOS TRANSPARENTE",
         "descript_product": "Adesivo Vinil Transparente, Auto Colantes, Só Frente",
         "model_product": [
             {
@@ -201,8 +225,8 @@
     },
     {
         "position_product": 1,
-        "image_product": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fbellvalley.com.br%2Fproduto%2Fvinil-adesivo%2F&psig=AOvVaw2zcjGMu4u7ghHJFG2ATF0r&ust=1693575266016000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKDjjNOBh4EDFQAAAAAdAAAAABBU",
-        "name_product": "ADESIVOS DE VINIL",
+        "image_product": "https://bellvalley.com.br/wp-content/uploads/2022/05/adesivo-perfurado-800x800.png",
+        "name_product": "ADESIVOS PERFURADO",
         "descript_product": "Adesivo Perfurado, Auto Colantes, Só Frente",
         "model_product": [
             {
@@ -1437,7 +1461,7 @@
     },
     {
         "position_product": 5,
-        "image_product": "calendario-parede.png",
+        "image_product": "calendario-parede.jpg",
         "name_product": "CALENDÁRIO DE PAREDE",
         "descript_product": "A4",
         "model_product": [
