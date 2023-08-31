@@ -142,12 +142,12 @@
         "descript_product": "Verniz Total •380 Gramatura • Só Frente • 1 Unidade",
         "model_product": [
             {
-                "descri": "100x100cm",
+                "descri": "1m²",
                 "price": "69,90"
             },
             {
-                "descri": "Outras Medidas Consultar Valor",
-                "price": "?"
+                "descri": "Outras Medidas",
+                "price": "Consultar"
             }
         ]
     },
@@ -155,7 +155,7 @@
         "position_product": 1,
         "image_product": "data:image/png;base64,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",
         "name_product": "CAVALETE ",
-        "descript_product": "Frente e Verso • 1 Unidade",
+        "descript_product": "Frente e Verso • Lona + Estrutura • 1 Unidade",
         "model_product": [
             {
                 "descri": "60x90cm",
@@ -174,12 +174,44 @@
         "descript_product": "Adesivo Vinil, Auto Colantes, Só Frente",
         "model_product": [
             {
-                "descri": "100x100cm",
+                "descri": "1m²",
                 "price": "75,00"
             },
             {
-                "descri": "Outras Medidas Consultar Valor",
-                "price": "?"
+                "descri": "Outras Medidas",
+                "price": "Consultar"
+            }
+        ]
+    },
+    {
+        "position_product": 1,
+        "image_product": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.stalyadesivos.com.br%2Fuploads%2Fprodutos%2Fadesivo-transparente-16058295068295000585fb703827f459.png&tbnid=1_EHLueqkSanUM&vet=12ahUKEwionvahgoeBAxXQS7gEHcB5DeEQMyguegUIARDUAQ..i&imgrefurl=https%3A%2F%2Fwww.stalyadesivos.com.br%2Fproduto%2Fadesivo-transparenteprof&docid=91dHhS0sr4EzfM&w=600&h=600&q=adesivo%20vinil%20transparente%20png&hl=pt-BR&ved=2ahUKEwionvahgoeBAxXQS7gEHcB5DeEQMyguegUIARDUAQ",
+        "name_product": "ADESIVOS DE VINIL",
+        "descript_product": "Adesivo Vinil Transparente, Auto Colantes, Só Frente",
+        "model_product": [
+            {
+                "descri": "1m²",
+                "price": "80,00"
+            },
+            {
+                "descri": "Outras Medidas",
+                "price": "Consultar"
+            }
+        ]
+    },
+    {
+        "position_product": 1,
+        "image_product": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fbellvalley.com.br%2Fproduto%2Fvinil-adesivo%2F&psig=AOvVaw2zcjGMu4u7ghHJFG2ATF0r&ust=1693575266016000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKDjjNOBh4EDFQAAAAAdAAAAABBU",
+        "name_product": "ADESIVOS DE VINIL",
+        "descript_product": "Adesivo Perfurado, Auto Colantes, Só Frente",
+        "model_product": [
+            {
+                "descri": "1m²",
+                "price": "95,00"
+            },
+            {
+                "descri": "Outras Medidas",
+                "price": "Consultar"
             }
         ]
     },
@@ -606,12 +638,12 @@
         "descript_product": "Sem Acabamento",
         "model_product": [
             {
-                "descri": "100x100cm",
+                "descri": "1m²",
                 "price": "65,00"
             },
             {
-                "descri": "Outras Medidas Consultar Valor",
-                "price": "?"
+                "descri": "Outras Medidas",
+                "price": "Consultar"
             }
         ]
     },
@@ -622,12 +654,12 @@
         "descript_product": "Tubete e Cordinha",
         "model_product": [
             {
-                "descri": "100x100cm",
+                "descri": "1m²",
                 "price": "70,00"
             },
             {
-                "descri": "Outras Medidas Consultar Valor",
-                "price": "?"
+                "descri": "Outras Medidas",
+                "price": "Consultar"
             }
         ]
     },
@@ -725,7 +757,7 @@
     },
     {
         "position_product": 4,
-        "image_product": "https://lh3.googleusercontent.com/pw/AIL4fc8B4a2qmoLb0XvKLzQ4_bJ5IIDMFtoZONufM-w0XDMm4MFAIRqJ5q5iPsR__pYR0X6WWzH8rxZVrbOWaUV4f2qIw9qw-OE7wYz7YCcaOjNbSPq6fvF_PCoQJdkw_EYlw-oeA-NHe6gYDDJ1IvTnnYzbKpnk-yIUb-EjJhmBFweIRAvhUBkSOQMbJo76GDmkNBCYbQyVQY0xIbv9B6EF1zF5xd8P9sPSPAOq_Ee1mGEvUEZTWgxG9QSizAeujmcioc6NxSjp5dr00jK0lLfS2h-_uTPXDFtxRYlth1oiUAU32TQQx48252ujS0r-CACl96Q29GLAX5JVgxT4cI5xtbYQvjNOMKuFV5oPYG9IQasQQOWXG3X9KxKiASzr1693HrY5iA_ViBTOtLZv-zENim4KWJg9YGqsxindzl8W4nmFsQsThq8fRRhNpdChl_epVVmiM3aRZuURdsyH6jLVxw12molLM322nfcVwZGiuUd8_ErLANwr0M3M0Nm20TiK0i8AieMkdY7u2maN_i8NJhT33o1Fm7LAPlUl68dRXnZxDibDGlHEYCae2sQIbr-3Dn53RZE1cSwS0p_kG-RQZJ6vMFjkYIFQs9SdDrzBAWDw--U7to0HpL5FiqauMZkGxkDIYGgRRF6YbX4AV7nJNeTcpYrvkqdEE7GctGJWjCPlcXXTiJlgWEKoKiaYRWzGQMnU4cacwdsyaPRYCQ6jh5exzmkJrwTfgvE_cifZj0G8rYR2LCwMDcso5kdpGullDxKteeU2oudVnnvfQwPztfG4GGqQdz5i5R1M0x4KkZAYumN7ehvWnwlKtisbp3D9TjcW879DZdD7rl2z4lJHcwhBZrmk9pBBsCvMisQE0So1n6p1fjWFQnODqFKVSrEqbf07J69GD1ecy_KeSMaZNoiHR6Fy3Q5-TTIHBezR_pjgiOibBqS_CGt5bUuXSwI=w619-h619-s-no?authuser=0",
+        "image_product": "camisa-helanca.png",
         "name_product": "CAMISAS HELANCA",
         "descript_product": "Tecido Helanca • 100% Personalizavem • P ao GG e infantil( 8 anos e 12 anos )",
         "model_product": [
@@ -1181,7 +1213,7 @@
     },
     {
         "position_product": 5,
-        "image_product": "https://lh3.googleusercontent.com/pw/AIL4fc8EiExPdhqBYTVFUc4O99hNhttCUMCyBkB6-Fg3D79qXxEC0PCLO8uEnWcJNbSgiA6vYHi_hwIVKVpV2EiwY6m4WnvQC0e8-xprkyuYzY0L7yoCrKioZnqD7ue9jhCoPWzRyCbakHKWnqqSwYQiLvN-CV4MulvJ7UAfqaNiGllG_W9ilCXYuZAhOo0uPkyDqPyXBo9QGcqAhskqpsL2vug-VpglZrp6g7y7ZuPdiWI3Y-70A-7soRrEXaC9j5Hv2R2q0xM_YWY9LIKS1PJe0rtVb0pJOW7xk-M6FpJUOJ5aECY7Ue4gYxCliU9ip6XCWfju11AkhgvHLAPLlp-0TkKCML6eHbe8S7tJ96mBVmNZCJ7ID2urHZmuAx_kWZmluecvgtArr6-dLSlQf-cgAwK2IZaHVMFFsjZRinyYLmqgxMoJS1Mvwsu8We3o6LTc8yj4F0vt7pZbpT0P8PTwvzHpNt2VOP9LiKp9tfyz3RL6o1DTdTAjT8ozeDrcesjIjUfi4NMLIg0D2IlMJn3V4P84y2Z75KzYExWIeqcG_x1oIEj0Kb2qeztXH9lKc-EMkBmGrYdzsyy1XpGZxxpJSkMpAM3z5M3dikhzZwoJEceQ9xeDDe4szjA9zPOLPgqrJTXuFZaycNe0M_s3glriGMpmCkTR6T9Dg6gkeyxmhwIV5JOdu7M19LJ2h8KY6PZZxQVLvcu7uk5Pm55qKf4t0VvMBmH4ZioOko5pUZWHHLmN3LEIcYknDDU_sWDas1YiFh47iSPv8dqE7M3cBKEeplKDmj9bl0fA-KTMPvhlSF66_OGPdkW-x0dN9nMYDgdBxBPR39Nql3R3ZdkKV4nuTw1hqkyoPMq7kv-Bj_OSXAjTHgiy3vGkNfJh7kW39M4NA9Nj6lyfylVjOSefNMOoDYz0XPs_IhhWHWnvKfTQi7R04FlukM5IYqfGJwu2B7o=w348-h619-s-no?authuser=0",
+        "image_product": "taca-vinho.png",
         "name_product": "TAÇA DE VINHO",
         "descript_product": "Cor branca Cristal • 320ml",
         "model_product": [
@@ -1317,7 +1349,7 @@
     },
     {
         "position_product": 5,
-        "image_product": "https://lh3.googleusercontent.com/pw/AIL4fc8ztPEkH3DLpVDk8YSyUmBGgWAta07md45maxwqbktISuiwXsaQ7L_HZP98USus_i42cubyCxNcomXOuiFwEniabvo7llWPUoivSyt0KACcoisnDcLr6BkpxRfcFxBVpRthLU8hu3j29IogRIj0utEO5KbTBk0gRh3LMtCvKafNvmn-yIpA93NJQ0Od6S5QSxc6QMlmGlWkvYKZoqt8BCfv7eHxUy6M157GRO-RGIIMMGqnfGJfRq6ulbUurzVJHymmJ0XrW-aVxAo3F_6DK9wVJ0wFKeeFtGGcFrKnj5MeSYkSgLAqeFVF6QRVDJA3_8KJioyhlmu9JJ0KcsN0lpVuCwUXD1llvFWyfg7OYQGy46bsAg0K8QcmNh2a7FjrrPWOsAO-RiG_4s7XEj4F0g7sGbDditYO_m7htyhjj29OqslIdi980dNSG4Y4yoFcztwm11Dz179f7uCC-iENbp2WO-zf1jq0TXvnMBwteO1HLtNICEIuy0KJOF7FtkWU2k7d3wNPgOiJVpYVd5zrZlCMAxWdZs1vErOgPlA5BiA02gfE93EsuDY1n3iknT5Gkrwv1uJ8B0ZsF2hd005CLvD0bj7K_Qi7Gs_Feb_xaiTryGxE5QgllzIG8MkrqXvzMoO6Yai9jrodaKxJWZyPDycF6csZ1UkAmFmfvJibHwTGhDLgr08UW7WTEjVXlPmqwUND6PPGFaO2M2XxN81Lax6pRN5VY3nPaFtaKl2FGWOR9SHGQlOYzxc15_dlABjBPBLje5t-pyWb9NQBsnAD1hQEDlRlkDWkStVFBL7bAb27gACxpq0u-eKfNKgPuPZE36-lM-ow2FaJYrDcX5IWCCoUxHWStFd87sQr0wbgZI7AQ5W0GPt1182w-OpTYe_uvGXqUBzuQlnZ8HPAXsxEG78TEXaq7N0d60Z4dxQrgyIn3GG0pLzjOlaEupnpIfA=w707-h619-s-no?authuser=0",
+        "image_product": "caneca-acri-degrade.png",
         "name_product": "CANECA ACRÍLICA",
         "descript_product": "Com Degradê • 300ml",
         "model_product": [
@@ -1371,19 +1403,19 @@
         "model_product": [
             {
                 "descri": "100(und)",
-                "price": "150,00"
+                "price": "169,90"
             },
             {
                 "descri": "300(und)",
-                "price": "299,00"
+                "price": "329,90"
             },
             {
                 "descri": "500(und)",
-                "price": "399,00"
+                "price": "439,90"
             },
             {
                 "descri": "1000(und)",
-                "price": "509,00"
+                "price": "549,90"
             }
         ]
     },
@@ -1400,6 +1432,62 @@
             {
                 "descri": "10x7,5cm - Mínimo 20",
                 "price": "2,50"
+            }
+        ]
+    },
+    {
+        "position_product": 5,
+        "image_product": "calendario-parede.png",
+        "name_product": "CALENDÁRIO DE PAREDE",
+        "descript_product": "A4",
+        "model_product": [
+            {
+                "descri": "50(und)",
+                "price": "210,00"
+            },
+            {
+                "descri": "100(und)",
+                "price": "360,00"
+            },
+            {
+                "descri": "250(und)",
+                "price": "499,00"
+            },
+            {
+                "descri": "500(und)",
+                "price": "849,00"
+            },
+            {
+                "descri": "1000(und)",
+                "price": "1029,00"
+            }
+        ]
+    },
+    {
+        "position_product": 5,
+        "image_product": "calendario-mesa.png",
+        "name_product": "CALENDARIO DE MESA",
+        "descript_product": "A4",
+        "model_product": [
+            {
+                "descri": "50(und)",
+                "price": "280,00"
+            },
+            {
+                "descri": "100(und)",
+                "price": "390,00"
+            },
+            {
+                "descri": "250(und)",
+                "price": "529,00"
+            },
+            {
+                "descri": "500(und)",
+                "price": "799,00"
+            },
+            {
+                "descri": "1000(und)",
+                "price": "899,00"
             }
         ]
     },
