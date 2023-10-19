@@ -1,8 +1,9 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useEffect, useState } from 'react'
 import jQuery from 'jquery'
+import settings from '@/data/settings.json'
 
-export default function TopBar({ id, settings, setFilterProdutos, products }) {
+export default function TopBar({ id, setFilterProdutos, products }) {
   const [displayHour, setDisplayHour] = useState('none')
   const [bgColorFixed, setBgColorFixed] = useState('Transparent')
   const [opTitle, setOpTitle] = useState(0)
