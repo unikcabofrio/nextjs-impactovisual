@@ -1,7 +1,7 @@
 export default async function handler(req, res) {
     try{
         const posts = []
-        const url = `https://docs.google.com/spreadsheets/d/${process.env.SHEET_ID}/gviz/tq?tqx=out:json`
+        const url = process.env.SHEET_ID
         const response = await fetch(url)
         const text = await response.text()
         const data = JSON.parse(text.substr(47).slice(0, -2)).table.rows

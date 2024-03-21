@@ -1,17 +1,5 @@
 import styled, { keyframes } from 'styled-components';
 
-export default function Loading() {
-  return (
-    <DivContainer >
-      <Divl_dsRipple >
-        <div></div>
-        <div></div>
-      </Divl_dsRipple>
-    </DivContainer>
-  )
-}
-
-
 const ldsRipple = keyframes`
   0% {
     top: 36px;
@@ -42,8 +30,7 @@ const ldsRipple = keyframes`
     opacity: 0;
   }
 `
-
-const DivContainer = styled.div`
+export const DivContainer = styled.div`
     width: 100vw;
     height: 100vh;
     position: fixed;
@@ -55,7 +42,7 @@ const DivContainer = styled.div`
     justify-content: center;
 `
 
-const Divl_dsRipple = styled.div`
+export const Divl_dsRipple = styled.div`
   display: inline-block;
   position: relative;
   width: 80px;
