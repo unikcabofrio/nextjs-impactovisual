@@ -6,36 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint --fix"
+    "lint": "next lint"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.3.0",
-    "@fortawesome/free-brands-svg-icons": "^6.3.0",
-    "@fortawesome/free-regular-svg-icons": "^6.3.0",
-    "@fortawesome/free-solid-svg-icons": "^6.3.0",
-    "@fortawesome/react-fontawesome": "^0.2.0",
-    "@next/font": "13.1.5",
-    "embla-carousel": "^7.1.0",
-    "embla-carousel-autoplay": "^7.1.0",
-    "jquery": "^3.6.3",
-    "next": "13.1.5",
-    "nodemailer": "^6.9.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "styled-jsx": "^5.1.2"
+    "next": "14.0.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-player": "^2.14.1",
+    "styled-components": "^6.1.1"
   },
   "devDependencies": {
-    "airbnb": "^0.0.2",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^8.2.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-next": "^13.1.6",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-import": "^2.25.3",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.28.0",
-    "eslint-plugin-react-hooks": "^4.3.0",
-    "prettier": "^2.8.3"
+    "eslint": "^8",
+    "eslint-config-next": "14.0.3"
   }
 }
