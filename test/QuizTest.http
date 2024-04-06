@@ -1,0 +1,8 @@
+# 
+# Pegando dados da Planilha
+GET https://script.google.com/macros/s/AKfycbwbt7ByHsZw0ffsB3IFb2NXSBk9w8Y07hWEyCaNsEG6qT_6Lx03mboSwTlZ14Ft8VAPKQ/exec
+content-type: application/json
+
+{
+    sheetName:"products"
+}

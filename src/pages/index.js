@@ -13,12 +13,12 @@ export default function Index() {
     await fetch('/api/getProducts')
     .then(async (result)=>{
       const products = await result.json()
-      
+
       setInterval(()=>{
         setIsPreload(false)
       },2000)
-      setProducts(products.posts)
-      setProductsFilter(products.posts)
+      setProducts(products.data)
+      setProductsFilter(products.data)
     })
   }
   
