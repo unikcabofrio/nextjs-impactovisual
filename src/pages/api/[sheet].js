@@ -9,7 +9,8 @@ export default async function handler(req, res) {
     try {
 
         if (req.method === 'GET') {
-
+            console.log(url+`?SheetByName=${sheet}`)
+            
             const response = await fetch(url+`?SheetByName=${sheet}`)
             const data = await response.json()
             res.status(200).json(data)
