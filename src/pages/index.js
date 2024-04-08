@@ -1,25 +1,32 @@
 import { useEffect, useState } from "react";
 
 import Loading from "@/Views/Loading";
+import Header from "@/Views/Address";
 import SearchBar from "@/components/searchBar";
 import ListProducts from "@/Views/ListProducts";
 
 export default function Index() {
   const [preload, setIsPreload] = useState(true);
+  const [contact,setContact] = useState([])
   const [products,setProducts] = useState([])
   const [productsFilter,setProductsFilter] = useState([])
 
   async function getListProducts() {
-    await fetch('/api/getProducts')
-    .then(async (result)=>{
-      const products = await result.json()
 
-      setInterval(()=>{
+    await fetch('/api/contact')
+      .then(async (result)=>{
+        const res = await result.json()
+        setContact(res.data)
+      })
+
+    await fetch('/api/products')
+      .then(async (result)=>{
+        const res = await result.json()
+
         setIsPreload(false)
-      },2000)
-      setProducts(products.data)
-      setProductsFilter(products.data)
-    })
+        setProducts(res.data)
+        setProductsFilter(res.data)
+      })
   }
   
   useEffect(() => {
@@ -34,6 +41,7 @@ export default function Index() {
       <>
         <SearchBar products={products} setProductsFilter={setProductsFilter}/>
         <ListProducts products={productsFilter}/>
+        <Header contact={contact}/>
       </>
       }
     </>
