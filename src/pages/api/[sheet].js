@@ -9,11 +9,10 @@ export default async function handler(req, res) {
     try {
 
         if (req.method === 'GET') {
-            console.log(url+`?SheetByName=${sheet}`)
-            
+
             const response = await fetch(url+`?SheetByName=${sheet}`)
             const data = await response.json()
-            res.status(200).json(data)
+            return res.status(200).json(data)
 
         }
     
@@ -28,12 +27,12 @@ export default async function handler(req, res) {
 
             const response = await fetch(urlInsert, {method: req.method})
             const data = await response.json()
-            res.status(200).json(data)
+            return res.status(200).json(data)
         }
     
-        res.status(404).json({ message: 'method not found' });
+        return res.status(404).json({ message: 'method not found' });
     } catch (error) {
-        res.status(500).json({erro:'Erro no servidor',message:error.message})
+        return res.status(500).json({erro:'Erro no servidor',message:error.message})
     }
 
     
