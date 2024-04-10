@@ -1,6 +1,6 @@
 import * as S from './style'
 
-export default function Loading() {
+export default function Index() {
   return (
     <S.DivContainer >
       <S.Divl_dsRipple >

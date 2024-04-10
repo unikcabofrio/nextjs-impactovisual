@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import * as S from './style'
 
-export default function CardProducts({ produto }) {
+export default function Index({ produto }) {
     return (
         <S.DivContainer>
             <div className="top">

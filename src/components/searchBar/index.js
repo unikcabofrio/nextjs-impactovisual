@@ -1,7 +1,7 @@
 import { useState } from "react";
 import * as S from './style'
 
-export default function SearchBar({products,setProductsFilter}) {
+export default function Index({products,setProductsFilter}) {
 
     const [valueSearch,setValueSearch] = useState('')
     
@@ -27,7 +27,7 @@ export default function SearchBar({products,setProductsFilter}) {
                     onClick={()=>{
                         if( valueSearch.length > 0){
                             setValueSearch('')
-                            setProductsFilter(Filter)
+                            setProductsFilter(products)
                         }
 
                     }}

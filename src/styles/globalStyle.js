@@ -13,6 +13,14 @@ const Globalstyle = createGlobalStyle`
     text-decoration: none;
     color:#FFFFFF;
   }
+
+  #__next{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    height:100vh;
+  }
 `;
 
 const Theme = {

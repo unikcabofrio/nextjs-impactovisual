@@ -1,7 +1,7 @@
 import * as S from './style'
 import CardProducts from "@/components/cardProduto"
 
-export default function ListProducts({ products }) {
+export default function Index({ products }) {
     return (
         <S.DivContainer>
             {
