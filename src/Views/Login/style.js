@@ -22,4 +22,15 @@ export const DivLogin = styled.div`
     background-color:${({ theme }) => { return theme.colors[0] }};
     padding:2.5rem;
     border-radius:1.5rem;
+
+`
+
+export const pAlert = styled.p`
+    width:100%;
+    margin-top:1rem;
+    padding:.5rem;
+    border-radius:.5rem;
+    background-color:${({ theme }) => { return theme.colors[2] }};
+    color:${({ theme }) => { return theme.colors[0] }};
+    transition:all .2s;
 `

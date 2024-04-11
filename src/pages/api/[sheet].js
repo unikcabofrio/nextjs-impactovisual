@@ -31,7 +31,7 @@ export default async function handler(req, res) {
             return res.status(200).json(data)
         }
     
-        return res.status(404).json({ message: 'method not found' });
+        return res.status(404).json({ message: 'Método não encontrado' });
     } catch (error) {
         return res.status(500).json({erro:'Erro no servidor',message:error.message})
     }

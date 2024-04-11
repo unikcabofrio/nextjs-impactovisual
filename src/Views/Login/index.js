@@ -1,26 +1,9 @@
-import { useState } from 'react'
 import * as S from './style'
-
-import { generateToken } from '@/utils/authUtils'
 
 import { Input, InputPassword } from '@/components/form/input'
 import Button from '@/components/form/button'
 
-export default function Index() {
-
-    const [email, setEmail] = useState("")
-    const [password, setPassword] = useState("")
-
-    const handleCadastro = async () => {
-        const userData = {
-            email: email,
-            password: password
-        };
-
-        const token = generateToken(userData);
-        console.log(token)
-    };
-
+export default function Index({handleCadastro,email,setEmail,password,setPassword,msgAlert,loading}) {
     return (
         <S.DivContainer>
             <S.DivLogin>
@@ -43,10 +26,14 @@ export default function Index() {
                 <Button
                     name={"Entrar"}
                     onClick={handleCadastro}
+                    loading={loading}
                 />
+                <S.pAlert
+                    style={{
+                        display: msgAlert ? "block" : "none"
+                    }}
+                >{msgAlert}</S.pAlert>
             </S.DivLogin>
         </S.DivContainer>
     )
 }
-
-
