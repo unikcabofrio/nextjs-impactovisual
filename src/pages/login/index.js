@@ -22,6 +22,7 @@ export default function Index() {
             })
         })
             .then(async (result) => {
+               
                 const res = await result.json()
                 if (res.auth) {
                     const expirationDate = new Date();
@@ -34,12 +35,12 @@ export default function Index() {
                     
                 }
 
+                setLoading(false)
                 setMsgAlert(res.message)
                 
                 if (!msgAlert) {
                     setTimeout(() => {
                         setMsgAlert("")
-                        setLoading(false)
                     }, 5000)
                 }
 
