@@ -4,12 +4,12 @@ import { useRouter } from 'next/router';
 import { verifyToken } from '@/utils/authUtils';
 
 import NavMenu from '@/Views/painel/Menu'
-import Produtos from '@/Views/painel/Produtos'
+import Produtos from '@/Views/painel/products'
 
 export default function Index(props) {
 
   const router = useRouter();
-  const [screen, setSreen] = useState("home")
+  const [screen, setSreen] = useState(<Produtos/>)
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const validateToken = async () => {
@@ -46,7 +46,7 @@ export default function Index(props) {
   return (
     <div className='_main'>
       <NavMenu setSreen={setSreen} />
-      <div>
+      <div style={{width:'100%'}}>
         {screen}
       </div>
       {/*

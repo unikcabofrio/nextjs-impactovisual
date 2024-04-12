@@ -25,16 +25,6 @@ export const Button = styled.div`
     cursor: pointer;
     border-radius:.8rem;
     transition:all .2s;
-
-    &:hover{
-        background-color:${({ theme }) => { return theme.colors[0] }};
-        color:${({ theme }) => { return theme.colors[5] }};
-        border:2px solid ${({ theme }) => { return theme.colors[5] }};
-
-        div{
-            color:${({ theme }) => { return theme.colors[5] }};
-        }
-    }
 `
 
 export const DivLoading = styled.div`

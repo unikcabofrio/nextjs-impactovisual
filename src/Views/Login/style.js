@@ -23,6 +23,19 @@ export const DivLogin = styled.div`
     padding:2.5rem;
     border-radius:1.5rem;
 
+    
+    .noload{
+        &:hover{
+            background-color:${({ theme }) => { return theme.colors[0] }};
+            color:${({ theme }) => { return theme.colors[5] }};
+            border:2px solid ${({ theme }) => { return theme.colors[5] }};
+
+            div{
+                color:${({ theme }) => { return theme.colors[5] }};
+            }      
+        }  
+    }
+
 `
 
 export const pAlert = styled.p`
