@@ -14,11 +14,16 @@ const Globalstyle = createGlobalStyle`
     color:#FFFFFF;
   }
 
-  #__next{
+  .main{
     display: flex;
     flex-direction: column;
     align-items: stretch;
     justify-content: space-between;
+    height:100vh;
+  }
+
+  ._main{
+    display: flex;
     height:100vh;
   }
 `;

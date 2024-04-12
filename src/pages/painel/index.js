@@ -9,7 +9,7 @@ import Produtos from '@/Views/painel/Produtos'
 export default function Index(props) {
 
   const router = useRouter();
-  const [sheet, setSheet] = useState("products")
+  const [screen, setSreen] = useState("home")
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const validateToken = async () => {
@@ -44,10 +44,14 @@ export default function Index(props) {
   }, [validateToken])
 
   return (
-    <>
-      {/* <NavMenu setSheet={setSheet} />
+    <div className='_main'>
+      <NavMenu setSreen={setSreen} />
+      <div>
+        {screen}
+      </div>
+      {/*
       {sheet == "products" ? <Produtos sheet={sheet} /> : <>{sheet}</>} */}
-    </>
+    </div>
   )
 }
 

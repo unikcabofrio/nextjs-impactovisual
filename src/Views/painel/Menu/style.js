@@ -1,10 +1,11 @@
 import styled from "styled-components"
 
 export const DivContainer = styled.div`
-    padding:1rem 3rem;
+    padding:1rem 0;
     background-color:${({ theme }) => { return theme.colors[2] }};
     color:${({ theme }) => { return theme.colors[0] }};
     display:flex;
+    flex-direction:column;
     align-items:center;
     justify-content:flex-start;
 

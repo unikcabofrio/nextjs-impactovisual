@@ -1,13 +1,15 @@
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
 import { setCookie } from 'cookies-next';
 import { useRouter } from 'next/router';
 
 import Login from '@/Views/Login'
+import Loading from "@/Views/Loading";
 
 export default function Index() {
 
     const router = useRouter();
-    const [loading,setLoading] = useState(false)
+    const [preload, setIsPreload] = useState(true);
+    const [loading, setLoading] = useState(false)
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
     const [msgAlert, setMsgAlert] = useState("")
@@ -22,22 +24,22 @@ export default function Index() {
             })
         })
             .then(async (result) => {
-               
+
                 const res = await result.json()
                 if (res.auth) {
                     const expirationDate = new Date();
                     expirationDate.setDate(expirationDate.getDate() + 30);
-                    setCookie('token', res.auth, {expires:expirationDate});
+                    setCookie('token', res.auth, { expires: expirationDate });
 
                     setTimeout(() => {
                         router.push('/painel');
                     }, 1000)
-                    
+
                 }
 
                 setLoading(false)
                 setMsgAlert(res.message)
-                
+
                 if (!msgAlert) {
                     setTimeout(() => {
                         setMsgAlert("")
@@ -49,17 +51,30 @@ export default function Index() {
 
     };
 
-    return(
-        <>
-            <Login
-                handleCadastro={handleCadastro}
-                email={email}
-                setEmail={setEmail}
-                password={password}
-                setPassword={setPassword}
-                msgAlert={msgAlert}
-                loading={loading}
-            />
-        </>
+    useEffect(() => {
+        setTimeout(() => {
+            setIsPreload(false)
+        }, 300)
+        
+    }, []);
+
+    return (
+        <div className="main">
+            {
+                preload ?
+                    <Loading /> :
+                    <>
+                        <Login
+                            handleCadastro={handleCadastro}
+                            email={email}
+                            setEmail={setEmail}
+                            password={password}
+                            setPassword={setPassword}
+                            msgAlert={msgAlert}
+                            loading={loading}
+                        />
+                    </>
+            }
+        </div>
     )
 }

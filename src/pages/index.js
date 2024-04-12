@@ -34,7 +34,7 @@ export default function Index() {
   }, [setIsPreload]);
 
   return (
-    <>
+    <div className="main">
       {
       preload ? 
       <Loading /> : 
@@ -44,6 +44,6 @@ export default function Index() {
         <Header contact={contact}/>
       </>
       }
-    </>
+    </div>
   );
 }
