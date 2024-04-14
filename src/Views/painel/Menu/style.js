@@ -15,6 +15,17 @@ export const DivContainer = styled.div`
 
     @media (max-width: 768px) {
         padding:1rem 1rem;
-        justify-content:center
+    }
+`
+
+export const MenuMobol = styled.div`
+    display:none;
+    width:100%;
+    cursor: pointer;
+    padding:.5rem 1rem;
+    font-size:1.2rem;
+
+    @media (max-width: 768px) {
+        display:inline-block;
     }
 `

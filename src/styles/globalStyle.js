@@ -26,6 +26,16 @@ const Globalstyle = createGlobalStyle`
     display: flex;
     height:100vh;
   }
+
+  @media (max-width: 768px) {
+
+    ._main{
+      display: flex;
+      flex-direction:column;
+      height:100vh;
+    }
+
+  }
 `;
 
 const Theme = {

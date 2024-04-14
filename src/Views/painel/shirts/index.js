@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react'
 import * as S from './style'
 
-import Table from '@/components/table.js'
+import Table from '@/components/table'
 
 export default function Index({ setIsPreload }) {
 
@@ -39,7 +39,7 @@ export default function Index({ setIsPreload }) {
                 <S.Title>Lista de Camisas</S.Title>
                 <S.DivTable>
                     <Table
-                        title={["Cor/Camisa", "Tamanho P", ""]}
+                        title={["Cor/Camisa", "Tamanho P"]}
                         values={table.map(item => ({ color_shirts: item.color_shirts, qtd_size_P: item.qtd_size_P }))}
                         handleEdit={handleEdit}
                         handleDelete={handleDelete}

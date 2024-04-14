@@ -26,7 +26,7 @@ export default function Index(props) {
                             {Object.values(item).map((value, i) => (
                                 <S.Td key={i}>{value}</S.Td>
                             ))}
-                            <S.Td>
+                            {/* <S.Td>
                                 {
                                     props.handleEdit ?
                                         <S.ButtonIcon onClick={() => props.handleEdit(indexOfFirstItem + index)}><i className="fi fi-br-edit"></i></S.ButtonIcon> :
@@ -37,7 +37,7 @@ export default function Index(props) {
                                         <S.ButtonIcon onClick={() => props.handleDelete(indexOfFirstItem + index)}><i className="fi fi-sr-trash"></i></S.ButtonIcon> :
                                         <></>
                                 }
-                            </S.Td>
+                            </S.Td> */}
                         </S.Tr>
                     ))}
                 </S.Tbody>

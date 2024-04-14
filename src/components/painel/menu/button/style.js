@@ -18,6 +18,10 @@ export const Button = styled.div`
         background-color:#024769;
         color:${({ theme }) => { return theme.colors[0] }};
     } 
+
+    @media (max-width: 768px) {
+        display:none;
+    }
 `
 
 export const icone = styled.i`

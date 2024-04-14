@@ -5,13 +5,32 @@ export const Table = styled.table`
     margin-top:1rem;
     border-collapse: collapse;
     border-spacing: 0;
+
 `
 
-export const Thead = styled.thead``
+export const Thead = styled.thead`
+
+    @media (max-width: 768px) {
+        tr{
+            :nth-child(1) {
+                display:none;
+            }
+        }
+        
+    }
+
+`
 
 export const Tbody = styled.tbody`
     tr:hover{
         background-color: #f5f5f5;
+    }
+
+    @media (max-width: 768px) {
+        font-size:.9rem;
+        td:nth-child(1) {
+            display:none;
+        }
     }
 `
 
@@ -20,7 +39,7 @@ export const Tr = styled.tr``
 export const Td = styled.td`
     padding: .3rem;
     text-align: left;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;    
 `
 
 export const Th = styled.th`
@@ -44,6 +63,10 @@ export const ButtonIcon = styled.button`
         color: ${({ theme }) => { return theme.colors[5] }};
     }
 
+    @media (max-width: 768px) {
+        font-size:.8rem;
+    }
+
 `
 
 export const DivCotrolPage = styled.div`
@@ -54,6 +77,10 @@ export const DivCotrolPage = styled.div`
     span{
         margin:0 1rem;
     }
+    @media (max-width: 768px) {
+        justify-content: space-around;
+    }
+    
 `
 
 export const ButtonPage = styled.button`
