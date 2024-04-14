@@ -4,12 +4,14 @@ import { useRouter } from 'next/router';
 import { verifyToken } from '@/utils/authUtils';
 
 import NavMenu from '@/Views/painel/Menu'
+import Loading from "@/Views/Loading"
 import Produtos from '@/Views/painel/products'
 
 export default function Index(props) {
 
   const router = useRouter();
-  const [screen, setSreen] = useState(<Produtos/>)
+  const [preload, setIsPreload] = useState(false)
+  const [screen, setSreen] = useState(<Produtos setIsPreload={setIsPreload} />)
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const validateToken = async () => {
@@ -22,8 +24,8 @@ export default function Index(props) {
     })
       .then(async (result) => {
 
-        if (!result.ok) { 
-          throw new Error; 
+        if (!result.ok) {
+          throw new Error;
         }
 
         const res = await result.json()
@@ -38,20 +40,22 @@ export default function Index(props) {
   }
 
   useEffect(() => {
-    setInterval(()=>{
+    setInterval(() => {
       validateToken()
-    },1000)
+    }, 1000)
   }, [validateToken])
 
   return (
-    <div className='_main'>
-      <NavMenu setSreen={setSreen} />
-      <div style={{width:'100%'}}>
-        {screen}
+    <>
+      {preload ? <Loading /> : <></>}
+      <div className='_main'>
+        <NavMenu setSreen={setSreen} setIsPreload={setIsPreload} />
+        <div style={{ width: '100%' }}>
+          {screen}
+        </div>
       </div>
-      {/*
-      {sheet == "products" ? <Produtos sheet={sheet} /> : <>{sheet}</>} */}
-    </div>
+    </>
+
   )
 }
 

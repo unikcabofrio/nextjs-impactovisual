@@ -20,7 +20,7 @@ export default function Index({ setIsPreload }) {
 
     async function getListProducts() {
         setIsPreload(true)
-        await fetch(`/api/products`)
+        await fetch(`/api/shirts`)
         .then(async (result) => {
             const res = await result.json()
             setTable(res.data)
@@ -36,11 +36,11 @@ export default function Index({ setIsPreload }) {
     return (
         <>
             <S.DivContainer>
-                <S.Title>Lista de Produtos</S.Title>
+                <S.Title>Lista de Camisas</S.Title>
                 <S.DivTable>
                     <Table
-                        title={["Nome", "Descrição", ""]}
-                        values={table.map(item => ({ nome: item.name_product, descricao: item.descript_product }))}
+                        title={["Cor/Camisa", "Tamanho P", ""]}
+                        values={table.map(item => ({ color_shirts: item.color_shirts, qtd_size_P: item.qtd_size_P }))}
                         handleEdit={handleEdit}
                         handleDelete={handleDelete}
                     />
