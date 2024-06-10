@@ -45,7 +45,7 @@ async function GetDataSheet(sheet) {
         const sheet_id = process.env.SHEET_ID
         const ulr = sheet_url.replace('::ID', sheet_id)
 
-        const response = await fetch(`${ulr}?sheet=${sheet}`,{ next: { revalidate: 60000 } });
+        const response = await fetch(`${ulr}?sheet=${sheet}`,{ next: { revalidate: 3600 } });
         const values = await response.json();
         const data = []
         values.jsonData.forEach(element => {
