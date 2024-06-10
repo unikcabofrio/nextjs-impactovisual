@@ -48,6 +48,8 @@ async function GetDataSheet(sheet) {
         const response = await fetch(`${ulr}?sheet=${sheet}`,{ cache: 'force-cache' });
         const values = await response.json();
         const data = []
+        console.log(ulr)
+        console.log(values)
         values.jsonData.forEach(element => {
             data.push(alignData(sheet, element))
         });
