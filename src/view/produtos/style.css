@@ -1,0 +1,126 @@
+.produtos {
+    background-color: var(--color_white);
+    padding: 4rem 4rem;
+    padding-top: 6rem;
+}
+
+.listprodutos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 8px;
+
+    /* grid-template-columns: repeat(auto-fit, minmax(350px, 2fr)); */
+    /* grid-template-columns: repeat(auto-fit, minmax(100%, 2fr)); */
+}
+
+.cardProdutos,
+.LoudCardProdutos {
+    padding: .5rem;
+    margin: .5rem 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: .5rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    color: var(--color_black);
+    font-size: .8rem;
+}
+
+.top,
+.price>table>thead>tr,
+.price>table>tbody>tr,
+.Loudtop,
+.Loudprice {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top>img,
+.Loudimg {
+    width: 30%;
+    object-fit: contain;
+}
+
+.price {
+    padding-top: 1rem;
+}
+
+.price>table {
+    display: flex;
+    flex-direction: column;
+}
+
+.price>table>tbody>tr>td:last-child {
+    color: var(--color3);
+    font-weight: 600;
+}
+
+.LoudCardProdutos {
+    height: 200px;
+}
+
+.Loudtop {
+    height: 40%;
+}
+
+.Loudprice {
+    padding-top: 1rem;
+    height: 70%;
+}
+
+.Loudprice>div {
+    width: 100%;
+}
+
+.Loudtitulo,
+.Loudimg,
+.LoudThead,
+.LoudTBody {
+    background: linear-gradient(90deg, #ffffff, #e9e8e8, #ffffff);
+    background-size: 400% 400%;
+    padding: 1rem;
+    border-radius: .2rem;
+}
+
+.Loudtitulo {
+    width: 65%;
+}
+
+.LoudThead {
+    height: 10%;
+    margin-bottom: .5rem;
+}
+
+.LoudTBody {
+    height: 60%;
+}
+
+@media (max-width: 768px) {
+    .produtos {
+        padding: 0 1rem;
+        padding-top: 9rem;
+    }
+
+    .listprodutos {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 2fr));
+    }
+}
+
+@media (min-width: 769px) and (max-width: 820px) {
+    .produtos {
+        padding: 0 1rem;
+        padding-top: 6rem;
+    }
+    .listprodutos {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+    }
+}
+
+@media (min-width: 821px) and (max-width: 1024px) {
+    .produtos {
+        padding: 0 1rem;
+        padding-top: 6rem;
+    }
+    .listprodutos {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

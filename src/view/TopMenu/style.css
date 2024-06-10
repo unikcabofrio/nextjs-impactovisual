@@ -1,0 +1,138 @@
+.navbar {
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-color: var(--color1);
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    color: var(--color_white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem;
+    z-index: 999;
+}
+
+
+.barBusca {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding-left: 3rem;
+}
+
+.barBusca>div{
+    background-color: var(--color6);
+    border: 1px solid var(--color1);
+    border-right: 0;
+    border-radius: .5rem 0 0 .5rem;
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.barBusca>input {
+    width: 80%;
+    padding: 1rem;
+    border: 1px solid var(--color1);
+    border-left: 0;
+    color: var(--color1);
+    background-color: var(--color_white);
+    border-radius: 0 .5rem .5rem 0;
+    transition: all ease-in-out .5s;
+}
+
+
+.barBusca>input:hover,
+.barBusca>input:focus {
+    box-shadow: 0 0 1em #00000013;
+}
+
+.barBusca>input:focus {
+    outline: none;
+}
+
+.barBusca>input:-webkit-input-placeholder {
+    font-weight: 100;
+}
+
+
+.menuButton {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuButton>img {
+    width: 80%;
+}
+
+.menuButton>span {
+    display: none;
+    font-size: 2rem;
+}
+
+.menuList {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menuList>span {
+    padding: 2rem 1rem;
+    cursor: pointer;
+    border-bottom: 5px solid var(--color1);
+}
+
+.menuList>span:hover {
+    background-color: var(--color2);
+    border-bottom: 5px solid var(--color_white);
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .menuButton {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .menuButton>img {
+        width: 20%;
+    }
+
+    .menuButton>span {
+        display: inline;
+        font-size: 3rem;
+    }
+
+    .menuList {
+        width: 100%;
+        display: none;
+        flex-direction: column;
+    }
+
+    .show {
+        display: flex;
+    }
+    .barBusca {
+        padding-left: 0;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 883px) {
+    .navbar{
+        padding: 0 2rem;
+    }
+    .barBusca {
+        padding-left: 0;
+    }
+}
