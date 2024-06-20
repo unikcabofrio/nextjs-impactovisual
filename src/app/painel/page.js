@@ -1,7 +1,7 @@
 'use client'
 import './style.css'
 import { useEffect, useState } from "react";
-import TopMenu from "@/viewPianel/topMenu";
+import TopMenu from "@/viewPianel/TopMenu";
 import PainelAtivo from '@/viewPianel/painelAtivo';
 
 export default function Page() {
