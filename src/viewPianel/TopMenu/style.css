@@ -1,7 +1,8 @@
 .navbar {
     height: 100vh;
     width: 150px;
-    background-color: var(--color1);
+    background-color: rgba(255,255,255,1);
+    border: 1px solid rgba(39, 43, 64,.1);
     display: flex;
     flex-direction: column;
 }
@@ -19,11 +20,14 @@
 
 .buttons{
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .menuList{
     width: 100%;
-    color: var(--color_white);
+    color: var(--color_1);
     display: flex;
     flex-direction: column;
     padding: 1rem 0;
@@ -37,10 +41,21 @@
 .menuList>span{
     cursor: pointer;
     padding: .5rem;
+    display: flex;
+    align-items: center;
+}
+
+.menuList>span>span{
+    font-size: 1rem;
+    padding-right: .5rem;
+}
+
+.menuList>span:hover{
+    background-color: rgba(191, 15, 48,.05);
 }
 
 .menuList>.ativo{
-    background-color: var(--color_white);
+    background-color: rgba(191, 15, 48,.1);
     color: var(--color2);
 }
 
@@ -49,14 +64,10 @@
 }
 
 .exitBtn>span{
-    background-color: var(--color2);
+    color: var(--color2);
     display: flex;
 }
 
-.exitBtn>span>span{
-    transform: rotateY(180deg);
-    padding-left: .2rem;
-}
 
 @media (max-width: 768px) {}
 

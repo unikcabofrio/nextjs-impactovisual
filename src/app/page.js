@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { GetAllData } from "@/utils/googleSheets";
 
-import TopMenu from "@/view/TopMenu";
+import TopMenu from "@/view/topMenu";
 import Produtos from "@/view/produtos";
 import FAQ from "@/view/faq";
 import Contato from "@/view/contato";

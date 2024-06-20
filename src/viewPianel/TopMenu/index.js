@@ -1,9 +1,26 @@
 'use client'
+import { useState } from 'react'
 import './style.css'
 import IconeSVG from '@/components/icon'
 
 
 export default function TopMenu({ setMenuAtivo }) {
+    const [listMenuSite] = useState([
+        { name: "Produtos", icone: "dataset", id: "produtos", class: "ativo" },
+        { name: "Perguntas", icone: "quiz", id: "perguntas", class: "" },
+        { name: "Lojas", icone: "store", id: "contato", class: "" }
+    ])
+
+    const [listMenuJd] = useState([
+        { name: "Camisas", icone: "laundry", id: "listCamisas_JD", class: "" },
+        { name: "Copos", icone: "water_full", id: "listCopos_JD", class: "" },
+    ])
+
+    const [listMenuCf] = useState([
+        { name: "Camisas", icone: "laundry", id: "listCamisas_CF", class: "" },
+        { name: "Copos", icone: "water_full", id: "listCopos_CF", class: "" },
+    ])
+
     function handleClick(id) {
         const spanlist = document.getElementsByTagName('span')
         for (let index = 0; index < spanlist.length; index++) {
@@ -21,25 +38,64 @@ export default function TopMenu({ setMenuAtivo }) {
             <div className='buttons'>
                 <div className={`menuList`}>
                     <h6>Configuração Site</h6>
-                    <span id={'produtos'} className={'ativo'} onClick={() => { handleClick('produtos') }}>Produtos</span>
-                    <span id={'perguntas'} onClick={() => { handleClick('perguntas') }}>Perguntas</span>
-                    <span id={'contato'} onClick={() => { handleClick('contato') }}>Lojas</span>
+                    {
+                        listMenuSite &&
+                        listMenuSite.map((item, index) => {
+                            return (
+                                <span
+                                    key={index}
+                                    id={item.id}
+                                    className={item.class}
+                                    onClick={() => { handleClick(item.id) }}>
+                                    <IconeSVG icone={item.icone} />
+                                    <>{item.name}</>
+                                </span>
+                            )
+                        })
+                    }
                 </div>
                 <div className={`menuList`}>
                     <h6>Relatório - Jardim</h6>
-                    <span id={'listCamisas_JD'} onClick={() => { handleClick('listCamisas_JD') }}>Camisas</span>
-                    <span id={'listCopos_JD'} onClick={() => { handleClick('listCopos_JD') }}>Copos</span>
+                    {
+                        listMenuJd &&
+                        listMenuJd.map((item, index) => {
+                            return (
+                                <span
+                                    key={index}
+                                    id={item.id}
+                                    className={item.class}
+                                    onClick={() => { handleClick(item.id) }}>
+                                    <IconeSVG icone={item.icone} />
+                                    <>{item.name}</>
+                                </span>
+                            )
+                        })
+                    }
                 </div>
                 <div className={`menuList`}>
                     <h6>Relatório - Cabo Frio</h6>
-                    <span id={'listCamisas_CF'} onClick={() => { handleClick('listCamisas_CF') }}>Camisas</span>
-                    <span id={'listCopos_CF'} onClick={() => { handleClick('listCopos_CF') }}>Copos</span>
+                    {
+                        listMenuCf &&
+                        listMenuCf.map((item, index) => {
+                            return (
+                                <span
+                                    key={index}
+                                    id={item.id}
+                                    className={item.class}
+                                    onClick={() => { handleClick(item.id) }}>
+                                    <IconeSVG icone={item.icone} />
+                                    <>{item.name}</>
+                                </span>
+                            )
+                        })
+                    }
                 </div>
             </div>
 
             <div className={`menuList exitBtn`}>
                 <span onClick={() => { window.location.href = '/' }}>
-                    <IconeSVG icone={"logout"} /><>Sair</>
+                    <IconeSVG icone={"logout"} />
+                    <>Sair</>
                 </span>
             </div>
         </nav>
