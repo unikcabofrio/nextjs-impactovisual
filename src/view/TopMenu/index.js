@@ -34,7 +34,7 @@ export default function TopMenu({setFilterProdutos}) {
                         return <span key={index} onClick={() => { handleClick(item.id) }}>{item.name}</span>
                     })
                 }
-                <span onClick={() => { window.location.href = '' }}>Painel</span>
+                <span onClick={() => { window.location.href = '/' }}>Painel</span>
             </div>
         </nav>
     )

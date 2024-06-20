@@ -1,0 +1,63 @@
+.navbar {
+    height: 100vh;
+    width: 150px;
+    background-color: var(--color1);
+    display: flex;
+    flex-direction: column;
+}
+
+.menuImage{
+    height: 15%;
+    padding: 1rem;
+}
+
+.menuImage>img{
+    width: 100%;
+    height: 100%;
+    object-fit:scale-down;
+}
+
+.buttons{
+    height: 100%;
+}
+
+.menuList{
+    width: 100%;
+    color: var(--color_white);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.menuList>h6{
+    color: var(--color4);
+    padding-left: .2rem;
+}
+
+.menuList>span{
+    cursor: pointer;
+    padding: .5rem;
+}
+
+.menuList>.ativo{
+    background-color: var(--color_white);
+    color: var(--color2);
+}
+
+.exitBtn{
+    height: 10%;
+}
+
+.exitBtn>span{
+    background-color: var(--color2);
+    display: flex;
+}
+
+.exitBtn>span>span{
+    transform: rotateY(180deg);
+    padding-left: .2rem;
+}
+
+@media (max-width: 768px) {}
+
+@media (min-width: 769px) and (max-width: 883px) {}

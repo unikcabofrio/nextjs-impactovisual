@@ -38,14 +38,13 @@ function alignData(sheet, data) {
 }
 
 async function GetDataSheet(sheet) {
-
     // METODO PARA BUSCAR TODOS OS DADOS DE CADA PÁGINA
     try {
         const sheet_url = process.env.SHEET_URL
         const sheet_id = process.env.SHEET_ID
         const ulr = sheet_url.replace('::ID', sheet_id)
 
-        const response = await fetch(`${ulr}?sheet=${sheet}`,{ next: { revalidate: 3600 } });
+        const response = await fetch(`${ulr}?sheet=${sheet}`);
         const values = await response.json();
         const data = []
         values.jsonData.forEach(element => {

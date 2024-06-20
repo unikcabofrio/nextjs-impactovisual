@@ -1,10 +1,11 @@
 'use client'
+import './style.css'
 import { useEffect, useState } from "react";
-
-import TopMenu from "@/view/TopMenu";
+import TopMenu from "@/viewPianel/TopMenu";
+import PainelAtivo from '@/viewPianel/painelAtivo';
 
 export default function Page() {
-  const [filterProdutos, setFilterProdutos] = useState('')
+  const [menuAtivo, setMenuAtivo] = useState('Produtos')
   const [produtos, setProdutos] = useState()
   const [faq, setFaq] = useState()
   const [contact, setContact] = useState()
@@ -33,9 +34,9 @@ export default function Page() {
   },[])
 
   return (
-    <>
-      <TopMenu setFilterProdutos={setFilterProdutos} />
-      Painel
-    </>
+    <div className="dashboard">
+      <TopMenu setMenuAtivo={setMenuAtivo} />
+      <PainelAtivo namePanel={menuAtivo}/>
+    </div>
   );
 }
