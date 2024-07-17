@@ -74,7 +74,7 @@ export async function GetAllData() {
         return data
 
     } catch (error) {
+        console.log(error)
         return { result: false, erro: error }
     }
-    return []
 }

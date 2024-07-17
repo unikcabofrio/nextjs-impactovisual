@@ -1,10 +1,12 @@
 :root {
     --color1: rgb(39, 43, 64);
     --color2: rgb(191, 15, 48);
-    --color3: #F20519;
-    --color4: #F2B705;
+    --color3: rgb(242, 5, 25);
+    --color4: rgb(242, 183, 5);
     --color5: #9a9a9a;
     --color6: #2e8dcc;
+    --color2_hover: rgb(156, 12, 38);
+    --color4_hover: rgb(208, 157, 4);
     --color_white: #FFF;
     --color_black: #404040;
 }
