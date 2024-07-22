@@ -1,4 +1,5 @@
 'use server'
+
 function editLista(contato) {
     if (contato.includes(',')) {
         const list_contato = contato.split(',')
@@ -59,14 +60,12 @@ async function GetDataSheet(sheet) {
 
 export async function GetAllData() {
     try {
-        const [getProdutos, getFaq, getContact] = await Promise.all([
-            GetDataSheet('produtos'),
+        const [getFaq, getContact] = await Promise.all([
             GetDataSheet('perguntas'),
             GetDataSheet('contato')
         ]);
 
         const data = [
-            { sheet: "produtos", data: getProdutos },
             { sheet: "perguntas", data: getFaq },
             { sheet: "contato", data: getContact }
         ]
@@ -76,5 +75,25 @@ export async function GetAllData() {
     } catch (error) {
         console.log(error)
         return { result: false, erro: error }
+    }
+}
+
+export async function GetDataProdutos() {
+    try {
+        const sheet_url = process.env.SHEET_URL
+        const sheet_id = process.env.SHEET_ID
+        const ulr = sheet_url.replace('::ID', sheet_id)
+
+        const response = await fetch(`${ulr}?sheet=produtos`,{ cache: 'force-cache', next: { revalidate: 60 } });
+        const values = await response.json();
+        const data = []
+        console.log('Pegando dados')
+        values.jsonData.forEach(element => {
+            data.push(alignData('produtos', element))
+        });
+        return data
+    } catch (error) {
+        console.log(error)
+        return error
     }
 }

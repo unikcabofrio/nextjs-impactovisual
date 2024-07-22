@@ -10,6 +10,6 @@ export default function Imagem(props) {
         width={0}
         height={0}
         onError={props.onError && props.onError}
-        priority
+        // priority
     />
 }

@@ -1,4 +1,4 @@
-
+<!-- 
 # OnePage - Cuida Jardim
 
 Um site dinâmico de jardinagem e paisagismo desenvolvido em Next.js e React. Explore dicas, inspirações e produtos premium para transformar seu espaço exterior. Compatível com dispositivos móveis e oferecendo suporte personalizado, é fácil criar o jardim dos seus sonhos.
@@ -14,4 +14,4 @@ Um site dinâmico de jardinagem e paisagismo desenvolvido em Next.js e React. Ex
 ## 📌 Autores
 
 - [@unikcabofrio](https://github.com/unikcabofrio)
-
+ -->
