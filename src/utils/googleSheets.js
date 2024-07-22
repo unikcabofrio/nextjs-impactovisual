@@ -84,7 +84,7 @@ export async function GetDataProdutos() {
         const sheet_id = process.env.SHEET_ID
         const ulr = sheet_url.replace('::ID', sheet_id)
 
-        const response = await fetch(`${ulr}?sheet=produtos`,{ next: { revalidate: 600 } });
+        const response = await fetch(`${ulr}?sheet=produtos`,{ next: { revalidate: 600 },cache:'reload' });
         const values = await response.json();
         const data = []
         console.log('Pegando dados')
