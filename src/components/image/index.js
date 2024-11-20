@@ -1,15 +1,25 @@
 import Image from 'next/image';
-export default function Imagem(props) {
-    return <Image
-        style={props.style}
-        className={props.className}
-        onClick={props.onClick}
-        src={props.src}
-        alt={props.alt ? props.alt : ''}
-        size={'cover'}
-        width={0}
-        height={0}
-        onError={props.onError && props.onError}
-        // priority
-    />
+
+export default function Imagem({
+    style,
+    className,
+    onClick,
+    src,
+    alt = '',
+    onError,
+}) {
+    return (
+        <Image
+            style={style}
+            className={className}
+            onClick={onClick}
+            src={src}
+            alt={alt}
+            width={0}
+            height={0}
+            sizes="100vw" // Melhora o layout responsivo
+            onError={onError}
+            priority // Adiciona prioridade por padrão
+        />
+    );
 }
